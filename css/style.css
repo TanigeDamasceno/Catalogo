@@ -1,0 +1,198 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: hsl(0, 0%, 5%);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    padding: 1rem;
+}
+
+/* Filtros na lateral */
+#filters {
+    width: 200px;
+    padding-right: 1rem;
+}
+
+#filters h2 {
+    margin-top: 0;
+}
+
+#categoryList {
+    list-style: none;
+    padding: 0;
+}
+
+#categoryList li a {
+    text-decoration: none;
+    color: hwb(120 7% 93%);
+    display: block;
+    padding: 5px 0;
+}
+
+#categoryList li a:hover {
+    text-decoration: underline;
+}
+
+/* Lista de produtos */
+#productList {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+ul {
+  list-style-type: none; /* remove os marcadores da lista */
+  padding: 0; /* remove o espaçamento padrão */
+}
+
+ul li {
+  margin: 10px 0; /* espaçamento entre os itens da lista */
+}
+
+ul li a {
+  text-decoration: none; /* remove o sublinhado do link */
+  color: hsl(240, 3%, 6%); /* cor do link */
+  font-family: Arial, sans-serif; /* fonte da lista */
+}
+
+ul li a:hover {
+  color: hwb(0 9% 91%); /* cor do link no hover */
+  text-decoration: underline; /* sublinha no hover */
+}
+
+ul li a h2 {
+  margin: 0; /* tira margem padrão do h2 para alinhar certinho */
+  font-size: 1.5rem; /* tamanho da fonte */
+}
+
+/* Botão carrinho menor */
+.btn-carrinho {
+  display: inline-block;
+  padding: 8px 16px; /* tamanho menor */
+  background-color: hsl(0, 0%, 4%); /* verde claro */
+  color: white; /* texto preto */
+  font-size: 1rem; /* fonte menor */
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid #3fef04; /* borda preta */
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+  margin-top: 20px; /* espaço entre o botão e o cabeçalho */
+  margin-inline-start: 20px; /* espaço à esquerda */
+
+}
+
+.btn-carrinho:hover {
+  background-color: #22e707; /* verde mais escuro no hover */
+  transform: translateY(-1px);
+}
+
+/* Card de produto individual */
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.product-card h3 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.product-card .price {
+    color: hsl(0, 0%, 7%);
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.product-card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+/* Área de quantidade e botão em linha */
+.product-card .action-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.product-card .action-row label {
+    font-size: 0.9rem;
+}
+
+.product-card input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Botão */
+.product-card button {
+    background-color: black;
+    color: #f8f9f5;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+    background-color: #1a1a1a;
+}
+
+#btnVoltarCatalogo {
+  background-color: #070707; /* preto bem escuro, igual ao que você usava */
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 0;
+}
+
+#btnVoltarCatalogo:hover {
+  background-color: #222222; /* hover com preto mais claro */
+  transform: translateY(-1px);
+}
