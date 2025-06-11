@@ -2,7 +2,7 @@
     {
         "id": "1",
         "nome": "Abobrinha Brasileira",
-        "descricao": "Pacote de abobrinha fresca, perfeita para refogados e saladas, com aproximadamente 500g.",
+        "descricao": "Pacote de abobrinha fresca, perfeita para refogados e saladas.",
         "preco": 3.00,
         "categoria": "Hortifruti",
         "imagem": "images/abobrinha.png"
@@ -18,7 +18,7 @@
     {
         "id": "4",
         "nome": "Cebola",
-        "descricao": "Pacote de cebola fresca, ideal para temperar suas receitas, com aproximadamente 500g.",
+        "descricao": "Pacote de cebola fresca, ideal para temperar suas receitas.",
         "preco": 3.0,
         "categoria": "Hortifruti",
         "imagem": "images/cebola.png"
@@ -26,7 +26,7 @@
     {
         "id": "5",
         "nome": "Batata Doce",
-        "descricao": "Pacote de batata doce fresca, rica em nutrientes, com aproximadamente 500g.",
+        "descricao": "Pacote de batata doce fresca, rica em nutrientes",
         "preco": 3.00,
         "categoria": "Hortifruti",
         "imagem": "images/batatadoce.png"
@@ -34,7 +34,7 @@
     {
         "id": "4",
         "nome": "Beterraba",
-        "descricao": "Pacote de beterraba fresca, rica em nutrientes, com aproximadamente 500g.",
+        "descricao": "Pacote de beterraba fresca, rica em nutrientes.",
         "preco": 3.00,
         "categoria": "Hortifruti",
         "imagem": "images/beterraba.png"
@@ -59,7 +59,7 @@
     {
         "id": "7",
         "nome": "Cenoura",
-        "descricao": "Pacote de cenoura fresca, rica em nutrientes, com aproximadamente 500g.",
+        "descricao": "Pacote de cenoura fresca, rica em nutrientes.",
         "preco": 3.00,
         "categoria": "Hortifruti",
         "imagem": "images/cenoura.png"
