@@ -324,17 +324,9 @@
         "id": "43",
         "nome": "Água com gás Crystal 500ml",
         "descricao": "Imagens meramente ilustrativas, Água mineral natural com gás, 500ml.",
-        "preco": 2.0,
+        "preco": 3.0,
         "categoria": "Bebidas",
         "imagem": "images/aguacomgas.png"
-    },
-    {
-        "id": "44",
-        "nome": "Papel Toalha",
-        "descricao": "Rolo de papel toalha absorvente para uso doméstico.",
-        "preco": 4.5,
-        "categoria": "Mercearia",
-        "imagem": "images/papeltoalha.png"
     },
     {
         "id": "45",
