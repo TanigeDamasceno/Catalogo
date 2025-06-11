@@ -1,20 +1,29 @@
-# Catálogo Hortifruti Damasceno's
+# 🥦 Catálogo Hortifruti Damasceno's
 
-Este projeto é um catálogo digital para o hortifruti da família Damasceno, localizado na cidade de Bauru-SP. O objetivo é facilitar a escolha dos clientes e agilizar o processo de compra, integrando filtros, busca e pedido via WhatsApp.
+Este é um catálogo digital feito sob medida para o Hortifruti da família Damasceno (Bauru-SP).  
+O sistema ajuda os clientes a escolher produtos e enviar o pedido direto via WhatsApp.
 
-> **Aviso:** O catálogo ainda está em fase de desenvolvimento e melhorias constantes serão implementadas.
+🚧 *Projeto em desenvolvimento contínuo.*
 
-## Funcionalidades
+## ✅ Funcionalidades
 
-- Filtro por categoria para facilitar a busca dos produtos (frutas, legumes, verduras, etc.)
-- Campo de busca para encontrar produtos rapidamente
-- Integração com WhatsApp para encaminhar os produtos escolhidos
-- Cadastro de quantidade, valor e forma de pagamento
-- Opções de retirada no local ou entrega em endereço informado pelo cliente
-- Interface simples e intuitiva para melhor experiência do usuário
+- Filtro por categorias (frutas, legumes, mercearia, etc)
+- Busca por nome ou descrição do produto
+- Envio do pedido via WhatsApp com detalhes do cliente
+- Escolha de quantidade e forma de pagamento
+- Opção de retirada ou entrega
+- Interface simples, leve e intuitiva
 
-## Como usar / Instalação
+## 🚀 Como usar
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/TanigeDamasceno/CatalogoHortifrutiDamascenos.git
+
+
+1. Clone o repositório:  
+   `git clone https://github.com/TanigeDamasceno/CatalogoHortifrutiDamascenos.git`
+
+2. Abra o `index.html` em seu navegador  
+3. Pronto! O catálogo estará disponível localmente
+
+## Acesse online:
+
+https://catalogohortifrutidamascenos.netlify.app/
