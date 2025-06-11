@@ -70,7 +70,7 @@
         "descricao": "Alface crespa fresca, ideal para saladas.",
         "preco": 8.00,
         "categoria": "Hortifruti",
-        "imagem": "images/alface.png"
+        "imagem": "images/alfacecrespa.png"
     },
     {
         "id": "9",
@@ -150,7 +150,7 @@
         "descricao": "Pacote de pimenta dedo de moça, com aproximadamente 150g.",
         "preco": 3.00,
         "categoria": "Hortifruti",
-        "imagem": "images/pimentadedo.png"
+        "imagem": "images/pimentadedom.png"
     },
     {
         "id": "19",
@@ -198,7 +198,7 @@
         "descricao": "Alface americana fresca, ideal para saladas.",
         "preco": 8.00,
         "categoria": "Hortifruti",
-        "imagem": "images/.png"
+        "imagem": "images/alfaceamericana.png"
     },
     {
         "id": "25",
@@ -247,22 +247,6 @@
         "preco": 3.00,
         "categoria": "Hortifruti",
         "imagem": "images/chuchu.png"
-    },
-    {
-        "id": "31",
-        "nome": "Abobora Cabotia Pequena",
-        "descricao": "Abobora Cabotia pequena, preço por unidade.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/aboboracabotia.png"
-    },
-    {
-        "id": "32",
-        "nome": "Alface Lisa",
-        "descricao": "Maço de Alface Lisa.",
-        "preco": 8.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/alfacelisa.png"
     },
     {
         "id": "35",
@@ -335,5 +319,45 @@
         "preco": 11.99,
         "categoria": "Mercearia",
         "imagem": "images/tixan.png"
+    },
+{
+        "id": "51",
+        "nome": "Cones Trufados",
+        "descricao": "Cones trufados, recheios diversos.",
+        "preco": 8.00,
+        "categoria": "Mercearia",
+        "imagem": "images/cones.png"
+    },
+    {
+        "id": "52",
+        "nome": "Laranja Pera kg",
+        "descricao": "Laranja Pera por kg.",
+        "preco": 6.99,
+        "categoria": "Hortifruti",
+        "imagem": "images/laranja.png"
+    },
+    {
+        "id": "53",
+        "nome": "Biscoito Recheado Marilan 80g",
+        "descricao": "Biscoito recheado, sabor chocolate.",
+        "preco": 2.99,
+        "categoria": "Mercearia",
+        "imagem": "images/marilan.png"
+    },
+    {
+        "id": "54",
+        "nome": "Cartela com 30 Ovos Extra",
+        "descricao": "Cartela com 30 unidades de Ovos Extra.",
+        "preco": 23.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/ovosextra.png"
+    },
+    {
+        "id": "57",
+        "nome": "Melao",
+        "descricao": "Melao docinho por unidade",
+        "preco": 10.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/melao.png"
     }
 ]

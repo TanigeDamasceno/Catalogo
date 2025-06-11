@@ -40,16 +40,26 @@ document.addEventListener('DOMContentLoaded', () => {
         productsToDisplay.forEach(product => {
             const productElement = document.createElement('div');
             productElement.className = 'product-card';
+
+            const disponivel = product.disponivel !== false;
+
             productElement.innerHTML = `
                 <img src="${product.imagem}" alt="${product.nome}" onerror="this.src='https://placehold.co/300x200/e0e0e0/ffffff?text=Imagem+Inválida'; this.onerror=null;">
                 <h3>${product.nome}</h3>
                 <p class="price">R$ ${product.preco.toFixed(2).replace('.', ',')}</p>
                 <p>${product.descricao || ''}</p>
+                ${!disponivel ? '<p style="color: red; font-weight: bold;">Indisponível</p>' : ''}
                 <div style="text-align: center; margin-top: 8px;">
                     <label for="qtd-${product.id}" style="display: block;">Quantidade:</label>
-                    <input type="number" id="qtd-${product.id}" min="1" value="1" style="width: 50px; padding: 4px; font-size: 14px; margin: 0 auto; display: block;">
+                    <input type="number" id="qtd-${product.id}" min="1" value="1"
+                        style="width: 50px; padding: 4px; font-size: 14px; margin: 0 auto; display: block;"
+                        ${!disponivel ? 'disabled' : ''}>
                 </div>
-                <button onclick="adicionarCarrinho('${product.id}', '${product.nome}', ${product.preco})">Adicionar ao Carrinho</button>
+                <button 
+                    onclick="adicionarCarrinho('${product.id}', '${product.nome}', ${product.preco})"
+                    ${!disponivel ? 'disabled style="background-color: #ccc; cursor: not-allowed;"' : ''}>
+                    ${!disponivel ? 'Indisponível' : 'Adicionar ao Carrinho'}
+                </button>
             `;
             productList.appendChild(productElement);
         });
