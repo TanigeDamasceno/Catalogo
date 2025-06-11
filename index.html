@@ -1,20 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Hortifruti Damasceno's</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" />
+  
+  <!-- Font Awesome para ícones das redes sociais -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    /* --- Estilo para redes sociais no rodapé --- */
+    .social-links {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+    }
+    .social-icon {
+      font-size: 2.2rem;
+      padding: 12px;
+      border-radius: 50%;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+      text-decoration: none;
+    }
+    .social-icon.whatsapp {
+      background-color: #25D366;
+    }
+    .social-icon.instagram {
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    }
+    .social-icon:hover {
+      transform: scale(1.15);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>Hortifruti Damasceno's</h1>
     <h2>Catálogo de Produtos</h2>
-    <input type="text" id="searchInput" placeholder="Buscar Produtos...">
-  </header>
+    <input type="text" id="searchInput" placeholder="Buscar Produtos..." />
+    
+  <a href="carrinho.html" class="btn-carrinho">Carrinho</a>
 
-<a href="carrinho.html" class="btn-carrinho">Carrinho</a>
+  </header>
 
 
   <main>
@@ -22,32 +65,61 @@
       <h2>Categorias</h2>
       <ul id="categoryList">
         <!-- Categorias via JS -->
-
-           <li><a href="carrinho.html">Carrinho</a></li>
-       
+        <li><a href="carrinho.html">Carrinho</a></li>
       </ul>
     </aside>
 
-
-    <section id="productList">
-      <!-- Produtos via JS -->
+    <section id="produtos">
+      <div id="productList">
+        <!-- Produtos via JS -->
+      </div>
     </section>
   </main>
 
+  <footer style="padding: 40px; text-align: center; background-color: #f8f8f8;">
+    <h2>Sobre Nós</h2>
+    <p style="max-width: 800px; margin: 0 auto; line-height: 1.6;">
+      Desde 2021, o <strong>Hortifruti Damasceno’s</strong> é mais do que um comércio: é um pedacinho de cuidado, fé e simplicidade no coração do bairro.<br /><br />
+      Nascemos com o propósito de levar alimentos frescos e saudáveis para sua casa, com o mesmo carinho que temos pela nossa família.<br /><br />
+      A cada cliente que chega, entregamos não só frutas e verduras, mas também um sorriso, um bom dia e a certeza de que aqui tudo é feito com amor — e com Deus no centro.
+    </p>
 
+    <p style="margin-top: 20px;">
+      🌿 <strong>Missão:</strong> Servir com honestidade, qualidade e proximidade.<br />
+      🌅 <strong>Visão:</strong> Crescer de forma justa, sempre valorizando as pessoas e o que a terra nos dá.<br />
+      ❤️ <strong>Valores:</strong> Fé, simplicidade, gratidão e serviço com amor.
+    </p>
 
-  <footer>
-    <p>&copy; 2021 Hortifruti Damasceno's. Todos os direitos reservados.</p>
-    <nav>
-      <ul>
-        <li><a href="#produtos">Produtos</a></li>
-        <li><a href="#sobre">Sobre Nós</a></li>
-        <li><a href="#contato">Contato</a></li>
+    <blockquote style="margin: 30px auto; font-style: italic; max-width: 600px;">
+      “Consagre ao Senhor tudo o que você faz, e os seus planos serão bem-sucedidos.”<br />
+      <strong>– Provérbios 16:3</strong>
+    </blockquote>
+
+    <nav style="margin-top: 30px;">
+      <ul style="list-style: none; padding: 0;">
+        <li style="display: inline; margin: 0 15px;"><a href="#produtos">Produtos</a></li>
+        <li style="display: inline; margin: 0 15px;"><a href="#contato">Contato</a></li>
       </ul>
     </nav>
-  </footer>
 
-  
+    <section id="contato" style="padding: 40px; text-align: center;">
+      <h2>Contato</h2>
+      <p>WhatsApp: (14) 99810-6415</p>
+      <p>Instagram: @hortifrutidamascenos</p>
+    </section>
+
+    <!-- Ícones das Redes Sociais -->
+    <div class="social-links">
+      <a href="https://wa.me/5514998106415" target="_blank" aria-label="WhatsApp" class="social-icon whatsapp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://www.instagram.com/hortifrutidamascenos/" target="_blank" aria-label="Instagram" class="social-icon instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+
+    <p style="margin-top: 20px;">&copy; 2021 Hortifruti Damasceno's. Todos os direitos reservados.</p>
+  </footer>
 
   <script src="js/script.js"></script>
 </body>

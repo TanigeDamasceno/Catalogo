@@ -1,6 +1,22 @@
 [
     {
         "id": "1",
+        "nome": "Abobrinha Brasileira",
+        "descricao": "Pacote de abobrinha fresca, perfeita para refogados e saladas, com aproximadamente 500g.",
+        "preco": 3.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/abobrinha.png"
+    },
+    {
+        "id": "3",
+        "nome": "Batata",
+        "descricao": "Pacote de batata, rica em nutrientes, com aproximadamente 500g.",
+        "preco": 3.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/batata.png"
+    },
+    {
+        "id": "3",
         "nome": "Cebola",
         "descricao": "Pacote de cebola fresca, ideal para temperar suas receitas, com aproximadamente 500g.",
         "preco": 3.0,
@@ -10,7 +26,7 @@
     {
         "id": "2",
         "nome": "Abobrinha Brasileira",
-        "descricao": "Abobrinha fresca, perfeita para refogados e saladas, com aproximadamente 500g.",
+        "descricao": "Pacote de abobrinha fresca, perfeita para refogados e saladas, com aproximadamente 500g.",
         "preco": 3.00,
         "categoria": "Hortifruti",
         "imagem": "images/abobrinha.png"
@@ -18,7 +34,7 @@
     {
         "id": "3",
         "nome": "Batata Doce",
-        "descricao": "Batata doce fresca, rica em nutrientes, com aproximadamente 500g.",
+        "descricao": "Pacote de batata doce fresca, rica em nutrientes, com aproximadamente 500g.",
         "preco": 3.00,
         "categoria": "Hortifruti",
         "imagem": "images/batatadoce.png"
@@ -26,7 +42,7 @@
     {
         "id": "4",
         "nome": "Beterraba",
-        "descricao": "Beterraba fresca, rica em nutrientes, com aproximadamente 500g.",
+        "descricao": "Pacote de beterraba fresca, rica em nutrientes, com aproximadamente 500g.",
         "preco": 3.00,
         "categoria": "Hortifruti",
         "imagem": "images/beterraba.png"
@@ -34,7 +50,7 @@
     {
         "id": "5",
         "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
+        "descricao": "Pacote de pepino japonês fresco, ideal para saladas, com 4 unidades em cada pacote.",
         "preco": 3.00,
         "categoria": "Hortifruti",
         "imagem": "images/pepinojapones.png"
@@ -43,7 +59,7 @@
     {
         "id": "6",
         "nome": "Pimentão Colorido",
-        "descricao": "Pimentão colorido fresco, ideal para refogados e saladas.",
+        "descricao": "Pacote de pimentão colorido fresco, ideal para refogados e saladas.",
         "preco": 3.00,
         "categoria": "Hortifruti",
         "imagem": "images/pimentaocolorido.png"
@@ -51,7 +67,7 @@
     {
         "id": "7",
         "nome": "Cenoura",
-        "descricao": "Cenoura fresca, rica em nutrientes, com aproximadamente 500g.",
+        "descricao": "Pacote de cenoura fresca, rica em nutrientes, com aproximadamente 500g.",
         "preco": 3.00,
         "categoria": "Hortifruti",
         "imagem": "images/cenoura.png"
@@ -59,15 +75,15 @@
     {
         "id": "8",
         "nome": "Alface Crespa",
-        "descricao": "Alface crespa fresca, ideal para saladas, com aproximadamente 500g.",
-        "preco": 3.00,
+        "descricao": "Alface crespa fresca, ideal para saladas.",
+        "preco": 8.00,
         "categoria": "Hortifruti",
         "imagem": "images/alface.png"
     },
     {
         "id": "9",
         "nome": "Maçã Fuji kg",
-        "descricao": "Maçã Fuji , docinha",
+        "descricao": "Maçã Fuji, por kg, docinha",
         "preco": 18.99, 
         "categoria": "Hortifruti",
         "imagem": "images/maca.png"
@@ -82,255 +98,317 @@
     },
     {
         "id": "11",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
+        "nome": "Jiló",
+        "descricao": "Pacote de Jiló.",
         "preco": 3.00,
         "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
+        "imagem": "images/jilo.png"
     },
     {
         "id": "12",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
+        "nome": "Berinjela",
+        "descricao": "Pacote de Berinjela, contem 3 unidades em cada pacote.",
         "preco": 3.00,
         "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
+        "imagem": "images/berinjela.png"
     },
     {
         "id": "13",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
-        "preco": 3.00,
+        "nome": "Inhame",
+        "descricao": "Inhame por kg.",
+        "preco": 18.99,
         "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
+        "imagem": "images/inhame.png"
     },
     {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
+        "id": "14",
+        "nome": "Limão",
+        "descricao": "Pacote de limão.",
         "preco": 3.00,
         "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
+        "imagem": "images/limao.png"
     },
     {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
+        "id": "15",
+        "nome": "Mandioca Congelada 1kg",
+        "descricao": "Pacote de Mandioca Congelada 1kg, está derretendo.",
+        "preco": 7.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/mandioca.png"
+    },
+    {
+        "id": "16",
+        "nome": "Pepino Caipira",
+        "descricao": "Pacote de pepino caipira fresco, com duas unidades em cada pacote.",
         "preco": 3.00,
         "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
+        "imagem": "images/pepinocaipira.png"
     },
     {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
+        "id": "17",
+        "nome": "Pimenta Cambuci",
+        "descricao": "Pacote de pimenta cambuci.",
         "preco": 3.00,
         "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
+        "imagem": "images/pimentacambuci.png"
     },
     {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
+        "id": "18",
+        "nome": "Pimenta Dedo de Moça",
+        "descricao": "Pacote de pimenta dedo de moça, com aproximadamente 150g.",
         "preco": 3.00,
         "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
+        "imagem": "images/pimentadedo.png"
     },
     {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
+        "id": "19",
+        "nome": "Pimentao Vede",
+        "descricao": "Pacote de pimentao verde.",
         "preco": 3.00,
         "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
+        "imagem": "images/pimentaoverde.png"
     },
     {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
+        "id": "20",
+        "nome": "Tomate",
+        "descricao": "Pacote de tomate pequeno.",
         "preco": 3.00,
         "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
+        "imagem": "images/tomate.png"
     },
     {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
+        "id": "21",
+        "nome": "Vagem",
+        "descricao": "Pacote de vagem com aproximadamente 180g.",
         "preco": 3.00,
         "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
+        "imagem": "images/vagem.png"
     },
     {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
+        "id": "22",
+        "nome": "Refrigerante Coca Cola 2L Retornável",
+        "descricao": "Refrigerante Coca Cola 2l Retorável.",
+        "preco": 7.00,
+        "categoria": "Bebidas",
+        "imagem": "images/cocacolaretornaveln.png"
+    },
+    {
+        "id": "23",
+        "nome": "Refrigerante Coca Cola Zero 2L Retornável",
+        "descricao": "Refrigerante Coca Cola Zero 2l Retorável.",
+        "preco": 7.00,
+        "categoria": "Bebidas",
+        "imagem": "images/cocazeroretornavel.png"
+    },
+    {
+        "id": "24",
+        "nome": "Alface Americana",
+        "descricao": "Alface americana fresca, ideal para saladas.",
+        "preco": 8.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/.png"
+    },
+    {
+        "id": "25",
+        "nome": "Rúcula",
+        "descricao": "Rúcula fresca, ideal para saladas.",
+        "preco": 8.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/.png"
+    },
+    {
+        "id": "26",
+        "nome": "Almeirão",
+        "descricao": "Almeirão fresco, ideal para saladas.",
+        "preco": 8.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/.png"
+    },
+    {
+        "id": "27",
+        "nome": "Salsa",
+        "descricao": "Maço de Salsa.",
+        "preco": 6.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/.png"
+    },
+    {
+        "id": "28",
+        "nome": "Coentro",
+        "descricao": "Maço de Coentro.",
+        "preco": 6.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/.png"
+    },
+    {
+        "id": "29",
+        "nome": "Cheiro Verde",
+        "descricao": "Maço de Cheiro Verde.",
+        "preco": 6.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/.png"
+    },
+    {
+        "id": "30",
+        "nome": "Chuchu",
+        "descricao": "Pacote de Chuchu, com aproximadamente 3 unides.",
         "preco": 3.00,
         "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
+        "imagem": "images/.png"
     },
     {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
+        "id": "31",
+        "nome": "Abobora Cabotia Pequena",
+        "descricao": "Abobora Cabotia pequena, preço por unidade.",
         "preco": 3.00,
         "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
+        "imagem": "images/.png"
     },
     {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
-        "preco": 3.00,
+        "id": "32",
+        "nome": "Alface Lisa",
+        "descricao": "Maço de Alface Lisa.",
+        "preco": 8.00,
         "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
+        "imagem": "images/.png"
     },
     {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
+        "id": "33",
+        "nome": "Cone de Chocolate",
+        "descricao": "Cone de Chocolate.",
+        "preco": 8.00,
+        "categoria": "Mercearia",
+        "imagem": "images/.png"
     },
     {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
+        "id": "34",
+        "nome": "Pudim",
+        "descricao": "Pudim.",
+        "preco": 4.99,
+        "categoria": "Mercearia",
+        "imagem": "images/.png"
     },
     {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
+        "id": "35",
+        "nome": "Papel Higienico Sublime 4 Unidades",
+        "descricao": "Papel Higienico Sublime 4 Unidades, folha simples.",
+        "preco": 6.99,
+        "categoria": "Mercearia",
+        "imagem": "images/.png"
     },
     {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
-    },
-    {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
-    },
-    {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
-    },
-    {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
-    },
-    {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
-    },
-    {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
-    },
-    {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
-    },
-    {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
-    },
-    {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
-    },
-    {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
-    },
-    {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
-    },
-    {
-        "id": "5",
-        "nome": "Pepino Japonês",
-        "descricao": "Pepino japonês fresco, ideal para saladas, com aproximadamente 500g.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/pepinojapones.png"
-    },
-    {
-        "id": "5",
-        "nome": "Leite UHT Integral 1L",       
-        "descricao": "Leite UHT Integral 1L, ideal para o café da manhã.",
+        "id": "39",
+        "nome": "Leite Integral 1L",       
+        "descricao": "Imagens meramente ilustrativas, Leite UHT Integral 1L, ideal para o café da manhã.",
         "preco": 5.99,
         "categoria": "Mercearia",
         "imagem": "images/pepinojapones.png"
     },
     {
-        "id": "9",
+        "id": "40",
         "nome": "Maçã Fuji kg",
-        "descricao": "Maçã Fuji , docinha",
+        "descricao": "Imagens meramente ilustrativas, Maçã Fuji kg.",
         "preco": 18.99, 
         "categoria": "Hortifruti",
         "imagem": "images/maca.png"
     },
     {
-        "id": "10",
+        "id": "41",
         "nome": "Coca Cola 2L",
-        "descricao": "Coca Cola 2L, perfeita para acompanhar suas refeições.",
+        "descricao": "Imagens meramente ilustrativas, Coca Cola 2L, perfeita para acompanhar suas refeições.",
         "preco": 10.00,
         "categoria": "Bebidas",
         "imagem": "images/cocacola2l.png"
-    }
-
-
-
-
+    },
+    {
+    "id": "5",
+    "nome": "Arroz 5kg",
+    "descricao": "Imagens meramente ilustrativas, Pacote de arroz branco tipo 1, 5kg.",
+    "preco": 30.0,
+    "categoria": "Mercearia",
+    "imagem": "images/arroz5kg.png"
+  },
+  {
+    "id": "6",
+    "nome": "Feijão 1kg",
+    "descricao": "Feijão carioca de alta qualidade, 1kg.",
+    "preco": 7.5,
+    "categoria": "Mercearia",
+    "imagem": "images/feijao.png"
+  },
+  {
+    "id": "7",
+    "nome": "Açúcar Refinado Caravelas 1kg",
+    "descricao": "*Imagens meramente ilustrativas",
+    "preco": 4.99,
+    "categoria": "Mercearia",
+    "imagem": "images/caravelas.png"
+  },
+  {
+    "id": "8",
+    "nome": "Açúcar Cristal Santa Isabel 1kg",
+    "descricao": "*Imagens meramente ilustrativas",
+    "preco": 4.99,
+    "categoria": "Mercearia",
+    "imagem": "images/acucarsanta.png"
+  },
+  {
+    "id": "9",
+    "nome": "Óleo de Soja 900ml",
+    "descricao": "*Imagens meramente ilustrativas",
+    "preco": 6.0,
+    "categoria": "Mercearia",
+    "imagem": "images/oleo.png"
+  },
+  {
+    "id": "10",
+    "nome": "Leite Integral 1L",
+    "descricao": "*Imagens meramente ilustrativas",
+    "preco": 4.8,
+    "categoria": "Mercearia",
+    "imagem": "images/leite.png"
+  },
+  {
+    "id": "11",
+    "nome": "Café Cabloco 500g",
+    "descricao": "*Imagens meramente ilustrativas. Café torrado e moído, embalagem de 500g.",
+    "preco": 35.0,
+    "categoria": "Mercearia",
+    "imagem": "images/caboclo500.png"
+  },
+   {
+    "id": "19",
+    "nome": "Café Cabloco 250g",
+    "descricao": "*Imagens meramente ilustrativas, Café torrado e moído, embalagem de 500g.",
+    "preco": 19.90,
+    "categoria": "Mercearia",
+    "imagem": "images/caboclo250.png"
+  },
+  {
+    "id": "16",
+    "nome": "Água sem gás 500ml",
+    "descricao": "Água mineral natural sem gás, 500ml.",
+    "preco": 2.0,
+    "categoria": "Bebidas",
+    "imagem": "images/aguasemgas500ml.png"
+  },
+  {
+    "id": "17",
+    "nome": "Papel Toalha",
+    "descricao": "Rolo de papel toalha absorvente para uso doméstico.",
+    "preco": 4.5,
+    "categoria": "Mercearia",
+    "imagem": "images/papeltoalha.png"
+  },
+  {
+    "id": "18",
+    "nome": "Sabão em Pó Tixan 800g",
+    "descricao": "*Imagens meramente ilustrativas, Sabão em pó Tixan Ypê, limpa e perfuma suas roupas, 800g",
+    "preco": 11.99,
+    "categoria": "Mercearia",
+    "imagem": "images/tixan.png"
+  }
+ 
 ]
+
 

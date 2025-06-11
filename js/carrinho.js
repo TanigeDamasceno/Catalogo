@@ -1,130 +1,169 @@
-const carrinhoContainer = document.getElementById('carrinhoContainer');
-const trocoDiv = document.getElementById('trocoDiv');
-const enderecoEntrega = document.getElementById('enderecoEntrega');
-const trocoInput = document.getElementById('troco');
-const enderecoInput = document.getElementById('endereco');
+// Mostrar/ocultar campo Troco
+document.querySelectorAll('input[name="pagamento"]').forEach(radio => {
+  radio.addEventListener("change", function () {
+    const trocoDiv = document.getElementById("trocoDiv");
+    trocoDiv.style.display = this.value === "dinheiro" ? "block" : "none";
+  });
+});
 
-let carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
+// Mostrar/ocultar campo Endereço
+document.querySelectorAll('input[name="entrega"]').forEach(radio => {
+  radio.addEventListener("change", function () {
+    const enderecoDiv = document.getElementById("enderecoEntrega");
+    enderecoDiv.style.display = this.value === "entrega" ? "block" : "none";
+  });
+});
 
-function atualizarCarrinho() {
-  carrinhoContainer.innerHTML = '';
+// Função para renderizar o carrinho, permitindo editar/remover itens
+function renderizarCarrinho() {
+  const carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
+  const container = document.getElementById("carrinhoContainer");
+  container.innerHTML = ""; // Limpa conteúdo anterior
 
   if (carrinho.length === 0) {
-    carrinhoContainer.innerHTML = '<p>Seu carrinho está vazio.</p>';
+    container.innerHTML = "<p>Seu carrinho está vazio.</p>";
     return;
   }
 
-  carrinho.forEach((item, index) => {
-    const itemDiv = document.createElement('div');
-    itemDiv.classList.add('item-carrinho');
+  let total = 0;
 
-    itemDiv.innerHTML = `
+  carrinho.forEach((item, index) => {
+    const divItem = document.createElement("div");
+    divItem.className = "item-carrinho";
+
+    const subtotal = item.preco * item.quantidade;
+    total += subtotal;
+
+    divItem.innerHTML = `
       <strong>${item.nome}</strong><br>
-      Preço unitário: R$ ${item.preco.toFixed(2).replace('.', ',')}<br>
-      Quantidade: <input type="number" min="1" value="${item.quantidade}" onchange="alterarQuantidade(${index}, this.value)" />
-      <button onclick="removerItem(${index})" style="margin-left: 10px;">Remover</button>
+      Preço unitário: R$ ${item.preco.toFixed(2)}<br>
+      Quantidade: 
+      <input type="number" min="1" value="${item.quantidade}" data-index="${index}" class="input-quantidade" />
+      <button data-index="${index}" class="btn-remover">Remover</button>
     `;
 
-    carrinhoContainer.appendChild(itemDiv);
+    container.appendChild(divItem);
   });
 
-  const total = carrinho.reduce((acc, item) => acc + item.preco * item.quantidade, 0);
-  const totalDiv = document.createElement('div');
-  totalDiv.style.marginTop = '15px';
-  totalDiv.style.fontWeight = 'bold';
-  totalDiv.innerHTML = `Total: R$ ${total.toFixed(2).replace('.', ',')}`;
-  carrinhoContainer.appendChild(totalDiv);
-}
+  // Exibe o total no final do carrinho
+  const totalDiv = document.createElement("div");
+  totalDiv.className = "total-carrinho";
+  totalDiv.innerHTML = `<p><strong>Total: R$ ${total.toFixed(2)}</strong></p>`;
+  container.appendChild(totalDiv);
 
-function removerItem(index) {
-  carrinho.splice(index, 1);
-  salvarCarrinho();
-  atualizarCarrinho();
-}
-
-function alterarQuantidade(index, novaQtd) {
-  const qtd = parseInt(novaQtd);
-  if (isNaN(qtd) || qtd < 1) return;
-  carrinho[index].quantidade = qtd;
-  salvarCarrinho();
-  atualizarCarrinho();
-}
-
-function salvarCarrinho() {
-  localStorage.setItem('carrinho', JSON.stringify(carrinho));
-}
-
-document.querySelectorAll('input[name="pagamento"]').forEach(radio => {
-  radio.addEventListener('change', () => {
-    const pagamentoSelecionado = document.querySelector('input[name="pagamento"]:checked').value;
-    trocoDiv.style.display = pagamentoSelecionado === 'dinheiro' ? 'block' : 'none';
+  // Evento para alterar quantidade
+  document.querySelectorAll(".input-quantidade").forEach(input => {
+    input.addEventListener("change", (e) => {
+      const idx = e.target.getAttribute("data-index");
+      let novaQtd = parseInt(e.target.value);
+      if (isNaN(novaQtd) || novaQtd < 1) {
+        novaQtd = 1;
+        e.target.value = 1;
+      }
+      carrinho[idx].quantidade = novaQtd;
+      localStorage.setItem("carrinho", JSON.stringify(carrinho));
+      renderizarCarrinho(); // Atualiza a tela para refletir mudanças
+    });
   });
-});
 
-document.querySelectorAll('input[name="entrega"]').forEach(radio => {
-  radio.addEventListener('change', () => {
-    const entregaSelecionada = document.querySelector('input[name="entrega"]:checked').value;
-    enderecoEntrega.style.display = entregaSelecionada === 'entrega' ? 'block' : 'none';
+  // Evento para remover item
+  document.querySelectorAll(".btn-remover").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      const idx = e.target.getAttribute("data-index");
+      carrinho.splice(idx, 1);
+      localStorage.setItem("carrinho", JSON.stringify(carrinho));
+      renderizarCarrinho();
+    });
   });
-});
+}
 
+// Função para enviar o pedido via WhatsApp
 function enviarPedidoWhatsApp() {
+  const carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
+
   if (carrinho.length === 0) {
-    alert('Seu carrinho está vazio!');
+    alert("Seu carrinho está vazio.");
     return;
   }
 
   const pagamento = document.querySelector('input[name="pagamento"]:checked');
   const entrega = document.querySelector('input[name="entrega"]:checked');
-  const troco = trocoInput.value.trim();
-  const endereco = enderecoInput.value.trim();
+  const troco = document.getElementById("troco").value;
+  const endereco = document.getElementById("endereco").value.trim();
 
-  if (!pagamento) {
-    alert('Por favor, selecione uma forma de pagamento.');
+  const nomeCliente = document.getElementById("nomeCliente").value.trim();
+  const telefoneCliente = document.getElementById("telefoneCliente").value.trim();
+  const emailCliente = document.getElementById("emailCliente").value.trim();
+
+  if (!nomeCliente || !telefoneCliente || !emailCliente) {
+    alert("Por favor, preencha todos os dados do cliente.");
     return;
   }
 
-  if (!entrega) {
-    alert('Por favor, selecione uma forma de entrega.');
+  if (!pagamento || !entrega) {
+    alert("Por favor, selecione a forma de pagamento e de entrega.");
     return;
   }
 
-  if (entrega.value === 'entrega' && endereco.length === 0) {
-    alert('Por favor, informe o endereço para entrega.');
+  if (entrega.value === "entrega" && endereco === "") {
+    alert("Por favor, informe o endereço para entrega.");
     return;
   }
 
-  // Monta a mensagem do pedido
-  let mensagem = '*Pedido Hortifruti Damasceno\'s*%0A%0A';
+  let mensagem = `*Pedido Hortifruti Damasceno's*%0A`;
+  let total = 0;
 
   carrinho.forEach(item => {
-    mensagem += `${item.nome} - ${item.quantidade} x R$ ${item.preco.toFixed(2).replace('.', ',')} = R$ ${(item.preco * item.quantidade).toFixed(2).replace('.', ',')}%0A`;
+    mensagem += `- ${item.nome} (${item.quantidade}) - R$ ${item.preco.toFixed(2)}%0A`;
+    total += item.preco * item.quantidade;
   });
 
-  const total = carrinho.reduce((acc, item) => acc + item.preco * item.quantidade, 0);
-  mensagem += `%0ATotal: R$ ${total.toFixed(2).replace('.', ',')}%0A%0A`;
+  mensagem += `%0A*Total:* R$ ${total.toFixed(2)}%0A`;
+  mensagem += `*Pagamento:* ${pagamento.value}%0A`;
 
-  mensagem += `*Entrega:* ${entrega.value === 'entrega' ? 'Endereço: ' + endereco : 'Retirada no local'}%0A`;
-  mensagem += `*Pagamento:* ${pagamento.value === 'dinheiro' ? 'Dinheiro' : pagamento.value.charAt(0).toUpperCase() + pagamento.value.slice(1)}%0A`;
-
-  if (pagamento.value === 'dinheiro' && troco.length > 0) {
-    mensagem += `*Troco para:* R$ ${troco.replace('.', ',')}%0A`;
+  if (pagamento.value === "dinheiro" && troco) {
+    mensagem += `*Troco para:* R$ ${parseFloat(troco).toFixed(2)}%0A`;
   }
 
-  // Número do WhatsApp (substitua pelo seu número real)
-  const numeroWhatsApp = '5514998106415';
+  mensagem += `*Entrega:* ${entrega.value === "entrega" ? "Entrega em domicílio" : "Retirada na loja"}%0A`;
 
-  // Abre o WhatsApp com a mensagem
-  window.open(`https://wa.me/${numeroWhatsApp}?text=${mensagem}`, '_blank');
+  if (entrega.value === "entrega" && endereco) {
+    mensagem += `*Endereço:* ${endereco}%0A`;
+  }
+
+  mensagem += `%0A*Cliente:* ${nomeCliente}%0A*Telefone:* ${telefoneCliente}%0A*Email:* ${emailCliente}%0A`;
+
+  // Salvar o pedido no localStorage
+  const pedido = {
+    nomeCliente,
+    telefoneCliente,
+    emailCliente,
+    itens: carrinho,
+    total: total.toFixed(2),
+    pagamento: pagamento.value,
+    troco: troco || null,
+    entrega: entrega.value === "entrega" ? endereco : "Retirada",
+    data: new Date().toLocaleString()
+  };
+
+  const pedidos = JSON.parse(localStorage.getItem("pedidos")) || [];
+  pedidos.push(pedido);
+  localStorage.setItem("pedidos", JSON.stringify(pedidos));
+
+  // Redirecionar para WhatsApp
+  const numeroLoja = "5514998106415"; // coloque seu número aqui com DDD e sem espaços
+  const url = `https://wa.me/${numeroLoja}?text=${mensagem}`;
+  window.open(url, "_blank");
+
+  // Limpar carrinho após envio
+  localStorage.removeItem("carrinho");
+  renderizarCarrinho();
 }
 
-document.getElementById('btnVoltarCatalogo').addEventListener('click', () => {
-  voltarParaCatalogo();
+// Botão para voltar ao catálogo
+document.getElementById('btnVoltarCatalogo').addEventListener('click', function () {
+  window.location.href = 'index.html';
 });
 
-function voltarParaCatalogo() {
-  window.location.href = 'index.html';
-}
-
-// Atualiza o carrinho ao carregar a página
-atualizarCarrinho();
+// Chama renderizarCarrinho ao carregar a página
+renderizarCarrinho();
