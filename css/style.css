@@ -196,3 +196,56 @@ footer nav ul li a {
 footer nav ul li a:hover {
   text-decoration: underline;
 }
+/* Layout responsivo para telas menores */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  header input#searchInput {
+    width: 95%;
+    max-width: none;
+  }
+
+  main {
+    grid-template-columns: 1fr; /* Remove o filtro fixo ao lado */
+    padding: 0.5rem;
+  }
+
+  #filters {
+    order: 2; /* Coloca os filtros depois dos produtos, se quiser */
+    margin-top: 1rem;
+  }
+
+  #productList {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+
+  .btn-carrinho {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    margin: 1rem auto;
+    display: block;
+  }
+
+  .product-card img {
+    height: 120px;
+  }
+
+  footer {
+    padding: 2rem 1rem;
+    border-radius: 0;
+  }
+
+  footer nav ul li {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  footer nav ul {
+    text-align: center;
+  }
+}
