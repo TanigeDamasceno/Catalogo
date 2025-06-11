@@ -45,8 +45,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h3>${product.nome}</h3>
                 <p class="price">R$ ${product.preco.toFixed(2).replace('.', ',')}</p>
                 <p>${product.descricao || ''}</p>
-                <label for="qtd-${product.id}">Quantidade:</label>
-                <input type="number" id="qtd-${product.id}" min="1" value="1">
+                <div style="text-align: center; margin-top: 8px;">
+                    <label for="qtd-${product.id}" style="display: block;">Quantidade:</label>
+                    <input type="number" id="qtd-${product.id}" min="1" value="1" style="width: 50px; padding: 4px; font-size: 14px; margin: 0 auto; display: block;">
+                </div>
                 <button onclick="adicionarCarrinho('${product.id}', '${product.nome}', ${product.preco})">Adicionar ao Carrinho</button>
             `;
             productList.appendChild(productElement);
