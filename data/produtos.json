@@ -41,7 +41,7 @@
     },
     {
         "id": "5",
-        "nome": "Pepino Japonês",
+        "nome": "Pepino Japones",
         "descricao": "Pacote de pepino japonês fresco, ideal para saladas, com 4 unidades em cada pacote.",
         "preco": 3.00,
         "categoria": "Hortifruti",
@@ -50,7 +50,7 @@
     ,
     {
         "id": "6",
-        "nome": "Pimentão Colorido",
+        "nome": "Pimentao Colorido",
         "descricao": "Pacote de pimentão colorido fresco, ideal para refogados e saladas.",
         "preco": 3.00,
         "categoria": "Hortifruti",
@@ -74,7 +74,7 @@
     },
     {
         "id": "9",
-        "nome": "Maçã Fuji kg",
+        "nome": "Maca Fuji kg",
         "descricao": "Maçã Fuji, por kg, docinha",
         "preco": 18.99, 
         "categoria": "Hortifruti",
@@ -90,7 +90,7 @@
     },
     {
         "id": "11",
-        "nome": "Jiló",
+        "nome": "Jilo",
         "descricao": "Pacote de Jiló.",
         "preco": 3.00,
         "categoria": "Hortifruti",
@@ -114,7 +114,7 @@
     },
     {
         "id": "14",
-        "nome": "Limão",
+        "nome": "Limao",
         "descricao": "Pacote de limão.",
         "preco": 3.00,
         "categoria": "Hortifruti",
@@ -146,7 +146,7 @@
     },
     {
         "id": "18",
-        "nome": "Pimenta Dedo de Moça",
+        "nome": "Pimenta Dedo de Moca",
         "descricao": "Pacote de pimenta dedo de moça, com aproximadamente 150g.",
         "preco": 3.00,
         "categoria": "Hortifruti",
@@ -178,7 +178,7 @@
     },
     {
         "id": "22",
-        "nome": "Refrigerante Coca Cola 2L Retornável",
+        "nome": "Refrigerante Coca Cola 2L Retornavel",
         "descricao": "Refrigerante Coca Cola 2l Retorável.",
         "preco": 7.00,
         "categoria": "Bebidas",
@@ -186,7 +186,7 @@
     },
     {
         "id": "23",
-        "nome": "Refrigerante Coca Cola Zero 2L Retornável",
+        "nome": "Refrigerante Coca Cola Zero 2L Retornavel",
         "descricao": "Refrigerante Coca Cola Zero 2l Retorável.",
         "preco": 7.00,
         "categoria": "Bebidas",
@@ -202,7 +202,7 @@
     },
     {
         "id": "25",
-        "nome": "Rúcula",
+        "nome": "Rucula",
         "descricao": "Rúcula fresca, ideal para saladas.",
         "preco": 8.00,
         "categoria": "Hortifruti",
@@ -210,7 +210,7 @@
     },
     {
         "id": "26",
-        "nome": "Almeirão",
+        "nome": "Almeirao",
         "descricao": "Almeirão fresco, ideal para saladas.",
         "preco": 8.00,
         "categoria": "Hortifruti",
@@ -266,7 +266,7 @@
     },
     {
         "id": "35",
-        "nome": "Papel Higiênico Sublime 30m 4 Rolos",
+        "nome": "Papel Higienico Sublime 30m 4 Rolos",
         "descricao": "Imagens meramente ilustrativas, Papel Higiênico Sublime 30m 4 Rolos, folha simples.",
         "preco": 6.99,
         "categoria": "Mercearia",
@@ -282,7 +282,7 @@
     },
     {
         "id": "7",
-        "nome": "Açúcar Refinado Caravelas 1kg",
+        "nome": "Acucar Refinado Caravelas 1kg",
         "descricao": "*Imagens meramente ilustrativas",
         "preco": 4.99,
         "categoria": "Mercearia",
@@ -290,7 +290,7 @@
     },
     {
         "id": "37",
-        "nome": "Açúcar Cristal Santa Isabel 1kg",
+        "nome": "Acucar Cristal Santa Isabel 1kg",
         "descricao": "*Imagens meramente ilustrativas",
         "preco": 4.99,
         "categoria": "Mercearia",
@@ -298,7 +298,7 @@
     },
     {
         "id": "38",
-        "nome": "Café Cabloco 500g",
+        "nome": "Cafe Cabloco 500g",
         "descricao": "*Imagens meramente ilustrativas. Café torrado e moído, embalagem de 500g.",
         "preco": 35.0,
         "categoria": "Mercearia",
@@ -306,7 +306,7 @@
     },
     {
         "id": "39",
-        "nome": "Café Cabloco 250g",
+        "nome": "Cafe Cabloco 250g",
         "descricao": "*Imagens meramente ilustrativas, Café torrado e moído, embalagem de 250g.",
         "preco": 19.90,
         "categoria": "Mercearia",
@@ -314,7 +314,7 @@
     },
     {
         "id": "42",
-        "nome": "Água sem gás Crystal 500ml",
+        "nome": "Agua sem gas Crystal 500ml",
         "descricao": "Imagens meramente ilustrativas, Água mineral natural sem gás, 500ml.",
         "preco": 2.0,
         "categoria": "Bebidas",
@@ -322,7 +322,7 @@
     },
     {
         "id": "43",
-        "nome": "Água com gás Crystal 500ml",
+        "nome": "Agua com gas Crystal 500ml",
         "descricao": "Imagens meramente ilustrativas, Água mineral natural com gás, 500ml.",
         "preco": 3.0,
         "categoria": "Bebidas",
@@ -330,7 +330,7 @@
     },
     {
         "id": "45",
-        "nome": "Sabão em Pó Tixan 800g",
+        "nome": "Sabao em Po Tixan 800g",
         "descricao": "*Imagens meramente ilustrativas, Sabão em pó Tixan Ypê, limpa e perfuma suas roupas, 800g",
         "preco": 11.99,
         "categoria": "Mercearia",
