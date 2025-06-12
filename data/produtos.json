@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": "1",
         "nome": "Abobrinha Brasileira",
         "descricao": "Pacote de abobrinha fresca, perfeita para refogados e saladas.",
@@ -83,7 +82,7 @@
     {
         "id": "10",
         "nome": "Coca Cola 2L",
-        "descricao": "Coca Cola 2L, perfeita para acompanhar suas refeições.",
+        "descricao": "Coca Cola 2L.",
         "preco": 10.00,
         "categoria": "Bebidas",
         "imagem": "images/cocacola2l.png"
@@ -123,7 +122,7 @@
     {
         "id": "15",
         "nome": "Mandioca Congelada 1kg",
-        "descricao": "Pacote de Mandioca Congelada 1kg, está derretendo.",
+        "descricao": "Pacote de Mandioca Congelada 1kg.",
         "preco": 7.00,
         "categoria": "Hortifruti",
         "imagem": "images/mandioca.png"
@@ -138,11 +137,11 @@
     },
     {
         "id": "17",
-        "nome": "Pimenta Cambuci",
-        "descricao": "Pacote de pimenta cambuci.",
-        "preco": 3.00,
+        "nome": "Mandioquinha Kg",
+        "descricao": "Mandioquinha por kg.",
+        "preco": 18.99,
         "categoria": "Hortifruti",
-        "imagem": "images/pimentacambuci.png"
+        "imagem": "images/mandioquinha.png"
     },
     {
         "id": "18",
@@ -359,5 +358,53 @@
         "preco": 10.00,
         "categoria": "Hortifruti",
         "imagem": "images/melao.png"
+    },
+    {
+        "id": "58",
+        "nome": "Brocolis",
+        "descricao": "Brocolis ninja, por unidade",
+        "preco": 9.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/brocolisninja.png"
+    },
+    {
+        "id": "59",
+        "nome": "Couve Flor",
+        "descricao": "Couve Flor, docinho por unidade",
+        "preco": 10.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/couveflor.png"
+    },
+    {
+        "id": "60",
+        "nome": "Abacaxi",
+        "descricao": "Abacaxi docinho, por unidade",
+        "preco": 13.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/abacaxi.png"
+    },
+    {
+        "id": "61",
+        "nome": "Abobora Cabotia",
+        "descricao": "Abobora Cabotia, por unidade",
+        "preco": 3.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/cabotia.png"
+    },
+      {
+        "id": "62",
+        "nome": "Mel 500ml",
+        "descricao": "Mel de laranjeira pequeno 500ml, ",
+        "preco": 20.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/melpeq.png"
+    },
+    {
+        "id": "63",
+        "nome": "Mel 1l",
+        "descricao": "Mel de laranjeira grande 1 litro.",
+        "preco": 35.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/melg.png"
     }
 ]
