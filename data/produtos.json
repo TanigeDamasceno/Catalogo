@@ -252,7 +252,7 @@
         "nome": "Papel Higienico Sublime 30m 4 Rolos",
         "descricao": "Imagens meramente ilustrativas, Papel Higiênico Sublime 30m 4 Rolos, folha simples.",
         "preco": 6.99,
-        "categoria": "Mercearia",
+        "categoria": "Higiene e Limpeza",
         "imagem": "images/sublime.png"
     },
     {
@@ -316,7 +316,7 @@
         "nome": "Sabao em Po Tixan 800g",
         "descricao": "*Imagens meramente ilustrativas, Sabão em pó Tixan Ypê, limpa e perfuma suas roupas, 800g",
         "preco": 11.99,
-        "categoria": "Mercearia",
+        "categoria": "Higiene e Limpeza",
         "imagem": "images/tixan.png"
     },
 {
@@ -394,7 +394,7 @@
       {
         "id": "62",
         "nome": "Mel 500ml",
-        "descricao": "Mel de laranjeira pequeno 500ml, ",
+        "descricao": "Mel de laranjeira pequeno 500ml. ",
         "preco": 20.00,
         "categoria": "Hortifruti",
         "imagem": "images/melpeq.png"
@@ -406,5 +406,173 @@
         "preco": 35.00,
         "categoria": "Hortifruti",
         "imagem": "images/melg.png"
+    },
+    {
+        "id": "64",
+        "nome": "Maracuja Azedo kg",
+        "descricao": "Maracuja azedo por kg.",
+        "preco": 14.99,
+        "categoria": "Hortifruti",
+        "imagem": "images/maracujaazedo.png"
+    },
+    {
+        "id": "65",
+        "nome": "Refrigerante Conquista Guarana 2L",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 5.00,
+        "categoria": "Bebidas",
+        "imagem": "images/conquistaguarana.png"
+    },
+ {
+        "id": "66",
+        "nome": "Refrigerante Conquista Guarana Zero Acucar 2L",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 5.00,
+        "categoria": "Bebidas",
+        "imagem": "images/conquistazero.png"
+    },
+     {
+        "id": "67",
+        "nome": "Refrigerante Conquista Cola 2L",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 5.00,
+        "categoria": "Bebidas",
+        "imagem": "images/conquistacola.png"
+    },    
+ {
+        "id": "68",
+        "nome": "Refrigerante Conquista Cola Zero Acucar 2L",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 5.00,
+        "categoria": "Bebidas",
+        "imagem": "images/conquistacolazero.png"
+    },
+     {
+        "id": "69",
+        "nome": "Refrigerante Conquista Laranja 2L",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 5.00,
+        "categoria": "Bebidas",
+        "imagem": "images/conquistalaranja.png"
+    },
+    {
+        "id": "70",
+        "nome": "Refrigerante Conquista Limao 2L",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 5.00,
+        "categoria": "Bebidas",
+        "imagem": "images/conquistalimao.png"
+    },
+    {
+        "id": "71",
+        "nome": "Refrigerante Conquista Uva 2L",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 5.00,
+        "categoria": "Bebidas",
+        "imagem": "images/conquistauva.png"
+    },
+    {
+        "id": "72",
+        "nome": "Sobremesa Lactea Batavo Creamy Chocolate Com Chantilly 90g",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 3.50,
+        "categoria": "Mercearia",
+        "imagem": "images/creamy.png"
+    },
+    {
+        "id": "73",
+        "nome": "Sobremesa Batavo Pudim de Leite 100g",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 4.99,
+        "categoria": "Mercearia",
+        "imagem": "images/pudimbatavo.png"
+    },
+    {
+        "id": "74",
+        "nome": "Iogurte Liquido Batavo Morango 170g",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 3.99,
+        "categoria": "Mercearia",
+        "imagem": "images/iogurtebatavomorango.png"
+    },
+    {
+        "id": "75",
+        "nome": "Iogurte de Morango Fit 10g de Proteínas Zero Lactose Parmalat 120g",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 5.99,
+        "categoria": "Mercearia",
+        "imagem": "images/parmalatfitmorango.png"
+    },
+    {
+        "id": "76",
+        "nome": "Iogurte Elege Bob Esponja Morango 100g",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 4.99,
+        "categoria": "Mercearia",
+        "imagem": "images/bobesponja.png"
+    },
+    {
+        "id": "77",
+        "nome": "Leite Fermentado Desnatado Morango Bob Esponja 80g",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 5.00,
+        "categoria": "Mercearia",
+        "imagem": "images/leitefermentadorosa.png"
+    },
+    {
+        "id": "78",
+        "nome": "Leite Fermentado Desnatado Uva Bob Esponja 80g",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 5.00,
+        "categoria": "Mercearia",
+        "imagem": "images/leitefermentadoroxo.png"
+    },
+    {
+        "id": "79",
+        "nome": "Leite Fermentado Desnatado Laranja Bob Esponja 80g",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 5.00,
+        "categoria": "Mercearia",
+        "imagem": "images/leitefermentadoamarelo.png"
+    },
+    {
+        "id": "80",
+        "nome": "Iogurte Liquido Batavo Vitamina com Cereal 170g",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 5.00,
+        "categoria": "Mercearia",
+        "imagem": "images/vitaminacomcereal.png"
+    },
+    {
+        "id": "81",
+        "nome": "Detergente Ype Neutro 500ml",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 2.99,
+        "categoria": "Higiene e Limpeza",
+        "imagem": "images/ypeneutro.png"
+    },
+    {
+        "id": "82",
+        "nome": "Detergente Ype Clear Care 500ml",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 2.99,
+        "categoria": "Higiene e Limpeza",
+        "imagem": "images/ypeclearcare.png"
+    },
+    {
+        "id": "83",
+        "nome": "Detergente Ype Capim Limao 500ml",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 2.99,
+        "categoria": "Higiene e Limpeza",
+        "imagem": "images/capimlimao.png"
+    },
+    {
+        "id": "84",
+        "nome": "Detergente Ype Clear 500ml",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 2.99,
+        "categoria": "Higiene e Limpeza",
+        "imagem": "images/ypeclear.png"
     }
 ]
