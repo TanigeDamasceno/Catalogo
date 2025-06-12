@@ -515,7 +515,7 @@
         "id": "77",
         "nome": "Leite Fermentado Desnatado Morango Bob Esponja 80g",
         "descricao": "*Imagens meramente ilustrativas.",
-        "preco": 5.00,
+        "preco": 1.99,
         "categoria": "Mercearia",
         "imagem": "images/leitefermentadorosa.png"
     },
@@ -523,7 +523,7 @@
         "id": "78",
         "nome": "Leite Fermentado Desnatado Uva Bob Esponja 80g",
         "descricao": "*Imagens meramente ilustrativas.",
-        "preco": 5.00,
+        "preco": 1.99,
         "categoria": "Mercearia",
         "imagem": "images/leitefermentadoroxo.png"
     },
@@ -531,7 +531,7 @@
         "id": "79",
         "nome": "Leite Fermentado Desnatado Laranja Bob Esponja 80g",
         "descricao": "*Imagens meramente ilustrativas.",
-        "preco": 5.00,
+        "preco": 1.99,
         "categoria": "Mercearia",
         "imagem": "images/leitefermentadoamarelo.png"
     },
@@ -539,7 +539,7 @@
         "id": "80",
         "nome": "Iogurte Liquido Batavo Vitamina com Cereal 170g",
         "descricao": "*Imagens meramente ilustrativas.",
-        "preco": 5.00,
+        "preco": 3.99,
         "categoria": "Mercearia",
         "imagem": "images/vitaminacomcereal.png"
     },
