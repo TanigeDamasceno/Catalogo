@@ -74,7 +74,7 @@
     {
         "id": "10",
         "nome": "Maca Fuji Pequena (Unidade)",
-        "descricao": "Maçã Fuji, por kg, docinha",
+        "descricao": "Maçã Fuji, por unidade, docinha",
         "preco": 1.00, 
         "categoria": "Hortifruti",
         "imagem": "images/maca.png"
@@ -557,7 +557,7 @@
         "descricao": "*Imagens meramente ilustrativas.",
         "preco": 2.99,
         "categoria": "Higiene e Limpeza",
-        "imagem": "images/ypeclear.png"
+       "imagem": "images/ypeclear.png"
     },
     {
         "id": "73",
