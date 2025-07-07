@@ -4,9 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Hortifruti Damasceno's</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/style.css" />
-  
+
   <!-- Font Awesome para ícones das redes sociais -->
   <link
     rel="stylesheet"
@@ -19,13 +18,14 @@
     html {
       scroll-behavior: smooth;
     }
-    /* --- Estilo para redes sociais no rodapé --- */
+
     .social-links {
       margin-top: 30px;
       display: flex;
       justify-content: center;
       gap: 25px;
     }
+
     .social-icon {
       font-size: 2.2rem;
       padding: 12px;
@@ -38,15 +38,34 @@
       box-shadow: 0 3px 6px rgba(0,0,0,0.2);
       text-decoration: none;
     }
+
     .social-icon.whatsapp {
       background-color: #25D366;
     }
+
     .social-icon.instagram {
       background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     }
+
     .social-icon:hover {
       transform: scale(1.15);
       box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    /* Botões de paginação */
+    #paginacao .pagina-btn {
+      padding: 8px 12px;
+      margin: 5px;
+      border: none;
+      background-color: #ddd;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    #paginacao .pagina-btn.ativa {
+      background-color: #25D366;
+      color: white;
+      font-weight: bold;
     }
   </style>
 </head>
@@ -55,11 +74,8 @@
     <h1>Hortifruti Damasceno's</h1>
     <h2>Catálogo de Produtos</h2>
     <input type="text" id="searchInput" placeholder="Buscar Produtos..." />
-    
-  <a href="carrinho.html" class="btn-carrinho">Carrinho</a>
-
+    <a href="carrinho.html" class="btn-carrinho">Carrinho</a>
   </header>
-
 
   <main>
     <aside id="filters">
@@ -74,66 +90,84 @@
       <div id="productList">
         <!-- Produtos via JS -->
       </div>
+
+      <!-- 🔽 Paginação aqui -->
+      <div id="paginacao" style="text-align: center; margin-top: 20px;"></div>
     </section>
   </main>
 
   <footer style="padding: 40px; text-align: center; background-color: #f8f8f8;">
-   <section id="sobre">
-  <h2>🥕 Sobre Nós</h2>
-  <p>
-    Desde 2021, o <strong>Hortifruti Damasceno’s</strong> existe para estar ao seu lado com simplicidade, fé e muito carinho.
-  </p>
-  <p>
-    Nascemos com um propósito claro: <strong>levar até você alimentos fresquinhos, saudáveis e cheios de cuidado</strong>, do jeitinho que cuidamos da nossa família.
-  </p>
-  <p>
-    Cada cliente que chega é único. Aqui, entregamos mais do que frutas e verduras: oferecemos um sorriso, um bom dia sincero e a certeza de que tudo é feito com amor e com Deus no centro de tudo.
-  </p>
-  <p>
-    ✨ <strong>Qualidade que se renova todos os dias</strong>, porque a sua mesa merece sempre o melhor.
-  </p>
-  <section id="missao-visao-valores">
-  <p><strong>Missão:</strong> Servir com honestidade, qualidade e proximidade.</p>
-  <p><strong>🌅 Visão:</strong> Crescer com justiça, sempre valorizando cada pessoa que caminha com a gente.</p>
-  <p><strong>❤️ Valores:</strong> Fé, simplicidade, gratidão e servir com amor.</p>
-</section>
+    <section id="sobre">
+      <h2>🥕 Sobre Nós</h2>
+      <p>Desde 2021, o <strong>Hortifruti Damasceno’s</strong> existe para estar ao seu lado com simplicidade, fé e muito carinho.</p>
+      <p>Nascemos com um propósito claro: <strong>levar até você alimentos fresquinhos, saudáveis e cheios de cuidado</strong>, do jeitinho que cuidamos da nossa família.</p>
+      <p>Cada cliente que chega é único. Aqui, entregamos mais do que frutas e verduras: oferecemos um sorriso, um bom dia sincero e a certeza de que tudo é feito com amor e com Deus no centro de tudo.</p>
+      <p>✨ <strong>Qualidade que se renova todos os dias</strong>, porque a sua mesa merece sempre o melhor.</p>
 
+      <section id="missao-visao-valores">
+        <p><strong>Missão:</strong> Servir com honestidade, qualidade e proximidade.</p>
+        <p><strong>🌅 Visão:</strong> Crescer com justiça, sempre valorizando cada pessoa que caminha com a gente.</p>
+        <p><strong>❤️ Valores:</strong> Fé, simplicidade, gratidão e servir com amor.</p>
+      </section>
 
-    <blockquote style="margin: 30px auto; font-style: italic; max-width: 600px;">
-      “Consagre ao Senhor tudo o que você faz, e os seus planos serão bem-sucedidos.”<br />
-      <strong>– Provérbios 16:3</strong>
-    </blockquote>
+      <blockquote style="margin: 30px auto; font-style: italic; max-width: 600px;">
+        “Consagre ao Senhor tudo o que você faz, e os seus planos serão bem-sucedidos.”<br />
+        <strong>– Provérbios 16:3</strong>
+      </blockquote>
 
-    <nav style="margin-top: 30px;">
-      <ul style="list-style: none; padding: 0;">
-        <li style="display: inline; margin: 0 15px;"><a href="#produtos">Produtos</a></li>
-        <li style="display: inline; margin: 0 15px;"><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-    
+      <nav style="margin-top: 30px;">
+        <ul style="list-style: none; padding: 0;">
+          <li style="display: inline; margin: 0 15px;"><a href="#produtos">Produtos</a></li>
+          <li style="display: inline; margin: 0 15px;"><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
 
-    <section id="contato" style="padding: 40px; text-align: center;">
-      <h2>Contato</h2>
-      <p>WhatsApp: (14) 99810-6415</p>
-      <p>Instagram: @hortifrutidamascenos</p>
+      <section id="contato" style="padding: 40px; text-align: center;">
+        <h2>Contato</h2>
+        <p>WhatsApp: (14) 99810-6415</p>
+        <p>Instagram: @hortifrutidamascenos</p>
+      </section>
+
+      <!-- Redes sociais -->
+      <div class="social-links">
+        <a href="https://wa.me/5514998106415" target="_blank" aria-label="WhatsApp" class="social-icon whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://www.instagram.com/hortifrutidamascenos/" target="_blank" aria-label="Instagram" class="social-icon instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+
+      <section id="Endereço" style="padding: 40px; text-align: center;">
+        <h2> Alameda Flor do Amor 6-14 Parque São Geraldo - Bauru / São Paulo</h2>
+        <a href="https://maps.app.goo.gl/5TDpvsFfkxL2u1iT6/" target="_blank"> Ver no mapa </a>
+      </section>
+
+      <section id="horario-funcionamento" style="padding: 40px; text-align: center;">
+        <h2>Horário de Funcionamento</h2>
+        <p>Segunda a Sábado: 09:00 - 19:00</p>
+        <p>Domingos e Feriados: 09:00 - 13:00</p>
+      </section>
     </section>
 
-    <!-- Ícones das Redes Sociais -->
-    <div class="social-links">
-      <a href="https://wa.me/5514998106415" target="_blank" aria-label="WhatsApp" class="social-icon whatsapp">
-        <i class="fab fa-whatsapp"></i>
-      </a>
-      <a href="https://www.instagram.com/hortifrutidamascenos/" target="_blank" aria-label="Instagram" class="social-icon instagram">
-        <i class="fab fa-instagram"></i>
-      </a>
-    </div>
+    <selection id="pagamento">
+      <h2>Formas de Pagamento</h2>
+      <p>Cartão de Crédito, Cartão de Débito, Pix e Dinheiro.</p>
+      <p> Vale Alimentação VR, Verocard, Alelo e Pluxee</p>
+      
+  <div style="display: flex; gap: 20px; justify-content: center; align-items: center; flex-wrap: wrap; padding: 10px;">
+    <img src="images/verocard.png" alt="Verocard" style="height: 60px; object-fit: contain;">
+    <img src="images/alelo.png" alt="Alelo" style="height: 60px; object-fit: contain;">
+    <img src="images/pluxee.png" alt="Pluxee" style="height: 60px; object-fit: contain;">
+    <img src="images/vr.png" alt="VR Alimentação" style="height: 60px; object-fit: contain;">
+  </div>
+</section>
+    </selection>
 
-
-    <section id="Endereço" style="padding: 40px; text-align: center;"></section>
-  <h2> Alameda Flor do Amor 6-14 Parque São Geraldo - Bauru / São Paulo</h2>
-  <a href="https://maps.app.goo.gl/5TDpvsFfkxL2u1iT6/" target="_blank"> Ver no mapa </a>
-
-    <p style="margin-top: 20px;">&copy; 2021 Hortifruti Damasceno's. Todos os direitos reservados.</p>
+    <footer style="background-color: #f8f8f8; padding: 20px; text-align: center;">
+  
+      <p style="margin-top: 20px;">&copy; 2021 Hortifruti Damasceno's. Todos os direitos reservados.</p>
+    </footer>
   </footer>
 
   <script src="js/script.js"></script>
