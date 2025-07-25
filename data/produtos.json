@@ -9,7 +9,7 @@
     {
         "id": "2",
         "nome": "Batata",
-        "descricao": "Pacote de batata, rica em nutrientes, com aproximadamente 500g.",
+        "descricao": "Pacote de batata, rica em nutrientes.",
         "preco": 3.00,
         "categoria": "Hortifruti",
         "imagem": "images/batata.png"
@@ -242,7 +242,7 @@
     {
         "id": "31",
         "nome": "Chuchu",
-        "descricao": "Pacote de Chuchu, com aproximadamente 3 unides.",
+        "descricao": "Pacote de Chuchu.",
         "preco": 3.00,
         "categoria": "Hortifruti",
         "imagem": "images/chuchu.png"
@@ -283,7 +283,7 @@
         "id": "36",
         "nome": "Cafe Cabloco 500g",
         "descricao": "*Imagens meramente ilustrativas. Café torrado e moído, embalagem de 500g.",
-        "preco": 38.00,
+        "preco": 34.90,
         "categoria": "Mercearia",
         "imagem": "images/caboclo500.png"
     },
@@ -331,7 +331,7 @@
         "id": "42",
         "nome": "Laranja Pera kg",
         "descricao": "Laranja Pera por kg.",
-        "preco": 6.99,
+        "preco": 4.99,
         "categoria": "Hortifruti",
         "imagem": "images/laranja.png"
     },
@@ -347,7 +347,7 @@
         "id": "44",
         "nome": "Cartela com 30 Ovos Extra",
         "descricao": "Cartela com 30 unidades de Ovos Extra.",
-        "preco": 23.00,
+        "preco": 22.00,
         "categoria": "Hortifruti",
         "imagem": "images/ovosextra.png"
     },
@@ -370,8 +370,8 @@
     {
         "id": "47",
         "nome": "Couve Flor",
-        "descricao": "Couve Flor, docinho por unidade",
-        "preco": 9.00,
+        "descricao": "Couve Flor, por unidade",
+        "preco": 10.00,
         "categoria": "Hortifruti",
         "imagem": "images/couveflor.png"
     },
@@ -471,14 +471,7 @@
         "categoria": "Bebidas",
         "imagem": "images/conquistauva.png"
     },
-    {
-        "id": "60",
-        "nome": "Sobremesa Lactea Batavo Creamy Chocolate Com Chantilly 90g",
-        "descricao": "*Imagens meramente ilustrativas.",
-        "preco": 3.50,
-        "categoria": "Mercearia",
-        "imagem": "images/creamy.png"
-    },
+  
     {
         "id": "62",
         "nome": "Iogurte Liquido Batavo Morango 170g",
