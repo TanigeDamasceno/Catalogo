@@ -136,14 +136,6 @@
         "imagem": "images/pepinocaipira.png"
     },
     {
-        "id": "18",
-        "nome": "Mandioquinha Kg",
-        "descricao": "Mandioquinha por kg.",
-        "preco": 18.99,
-        "categoria": "Hortifruti",
-        "imagem": "images/mandioquinha.png"
-    },
-    {
         "id": "19",
         "nome": "Pimenta Dedo de Moca",
         "descricao": "Pacote de pimenta dedo de moça, com aproximadamente 150g.",
@@ -288,14 +280,6 @@
         "imagem": "images/caboclo500.png"
     },
     {
-        "id": "37",
-        "nome": "Cafe Cabloco 250g",
-        "descricao": "*Imagens meramente ilustrativas, Café torrado e moído, embalagem de 250g.",
-        "preco": 24.90,
-        "categoria": "Mercearia",
-        "imagem": "images/caboclo250.png"
-    },
-    {
         "id": "38",
         "nome": "Agua sem gas Crystal 500ml",
         "descricao": "Imagens meramente ilustrativas, Água mineral natural sem gás, 500ml.",
@@ -319,14 +303,6 @@
         "categoria": "Higiene e Limpeza",
         "imagem": "images/tixan.png"
     },
-{
-        "id": "41",
-        "nome": "Cones Trufados",
-        "descricao": "Cones trufados, recheios diversos.",
-        "preco": 8.00,
-        "categoria": "Mercearia",
-        "imagem": "images/cones.png"
-    },
     {
         "id": "42",
         "nome": "Laranja Pera kg",
@@ -347,7 +323,7 @@
         "id": "44",
         "nome": "Cartela com 30 Ovos Extra",
         "descricao": "Cartela com 30 unidades de Ovos Extra.",
-        "preco": 22.00,
+        "preco": 19.99,
         "categoria": "Hortifruti",
         "imagem": "images/ovosextra.png"
     },
@@ -363,7 +339,7 @@
         "id": "46",
         "nome": "Brocolis",
         "descricao": "Brocolis ninja, por unidade",
-        "preco": 7.00,
+        "preco": 8.00,
         "categoria": "Hortifruti",
         "imagem": "images/brocolisninja.png"
     },
@@ -489,22 +465,6 @@
         "imagem": "images/bobesponja.png"
     },
     {
-        "id": "65",
-        "nome": "Leite Fermentado Desnatado Morango Bob Esponja 80g",
-        "descricao": "*Imagens meramente ilustrativas.",
-        "preco": 1.99,
-        "categoria": "Mercearia",
-        "imagem": "images/leitefermentadorosa.png"
-    },
-    {
-        "id": "66",
-        "nome": "Leite Fermentado Desnatado Uva Bob Esponja 80g",
-        "descricao": "*Imagens meramente ilustrativas.",
-        "preco": 1.99,
-        "categoria": "Mercearia",
-        "imagem": "images/leitefermentadoroxo.png"
-    },
-    {
         "id": "67",
         "nome": "Leite Fermentado Desnatado Laranja Bob Esponja 80g",
         "descricao": "*Imagens meramente ilustrativas.",
@@ -591,5 +551,29 @@
         "preco": 7.00,
         "categoria": "Hortifruti",
         "imagem": "images/couvemanteiga.png"
+    },
+    {
+        "id": "78",
+        "nome": "Couve Flor Roxa",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 10.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/couveflorroxa.png"
+    },
+    {
+        "id": "79",
+        "nome": "Alho a granel(100g)",
+        "descricao": "*Imagens meramente ilustrativas, valor referente a 100g.",
+        "preco": 4.19,
+        "categoria": "Hortifruti",
+        "imagem": "images/couveflorverde.png"
+    },
+    {
+        "id": "80",
+        "nome": "Bandeja de Morango ",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 15.99,
+        "categoria": "Hortifruti",
+        "imagem": "images/alho.png"
     }
 ]
