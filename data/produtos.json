@@ -1,13 +1,22 @@
-[{
-        "id": "1",
-        "nome": "Abobrinha Brasileira kg",
-        "descricao": "Pacote de abobrinha fresca, perfeita para refogados e saladas.",
-        "preco": 7.99,
+[
+    {
+        "id": "01",
+        "nome": "Quiabo",
+        "descricao": " pacote com aproximadamente 200g de quiabo fresco.",
+        "preco": 3.00,
         "categoria": "Hortifruti",
-        "imagem": "images/abobrinha.png"
+        "imagem": "images/quiabo.png"
     },
     {
-        "id": "2",
+        "id": "02",
+        "nome": "Pimenta Dedo de Moca",
+        "descricao": "Pacote de pimenta dedo de moça, com aproximadamente 150g.",
+        "preco": 3.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/pimentadedom.png"
+    },
+    {
+        "id": "03",
         "nome": "Batata",
         "descricao": "Pacote de batata, rica em nutrientes.",
         "preco": 3.00,
@@ -15,7 +24,7 @@
         "imagem": "images/batata.png"
     },
     {
-        "id": "3",
+        "id": "04",
         "nome": "Cebola",
         "descricao": "Pacote de cebola fresca, ideal para temperar suas receitas.",
         "preco": 3.0,
@@ -23,7 +32,7 @@
         "imagem": "images/cebola.png"
     },
     {
-        "id": "4",
+        "id": "05",
         "nome": "Batata Doce",
         "descricao": "Pacote de batata doce fresca, rica em nutrientes",
         "preco": 3.00,
@@ -31,7 +40,7 @@
         "imagem": "images/batatadoce.png"
     },
     {
-        "id": "5",
+        "id": "06",
         "nome": "Beterraba",
         "descricao": "Pacote de beterraba fresca, rica em nutrientes.",
         "preco": 3.00,
@@ -39,56 +48,15 @@
         "imagem": "images/beterraba.png"
     },
     {
-        "id": "6",
+        "id": "07",
         "nome": "Pepino Japones",
         "descricao": "Pacote de pepino japonês fresco, ideal para saladas, com 4 unidades em cada pacote.",
         "preco": 3.00,
         "categoria": "Hortifruti",
         "imagem": "images/pepinojapones.png"
-    }
-    ,
-    {
-        "id": "7",
-        "nome": "Pimentao Colorido",
-        "descricao": "Pacote de pimentão colorido fresco, ideal para refogados e saladas.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/pimentaocolorido.png"
     },
     {
-        "id": "8",
-        "nome": "Cenoura",
-        "descricao": "Pacote de cenoura fresca, rica em nutrientes.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/cenoura.png"
-    },
-    {
-        "id": "9",
-        "nome": "Alface Crespa",
-        "descricao": "Alface crespa fresca, ideal para saladas.",
-        "preco": 7.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/alfacecrespa.png"
-    },
-    {
-        "id": "10",
-        "nome": "Agua sem gas Crystal 1.5L",
-        "descricao": "Agua mineral natural sem gas, 1.5L.",
-        "preco": 5.00,
-        "categoria": "Bebidas",
-        "imagem": "images/aguasemgas1.5l.png"
-    },
-    {
-        "id": "11",
-        "nome": "Coca Cola 2L",
-        "descricao": "Coca Cola 2L.",
-        "preco": 10.00,
-        "categoria": "Bebidas",
-        "imagem": "images/cocacola2l.png"
-    },
-    {
-        "id": "12",
+        "id": "08",
         "nome": "Jilo",
         "descricao": "Pacote de Jiló.",
         "preco": 3.00,
@@ -96,7 +64,7 @@
         "imagem": "images/jilo.png"
     },
     {
-        "id": "13",
+        "id": "09",
         "nome": "Berinjela",
         "descricao": "Pacote de Berinjela, contem 3 unidades em cada pacote.",
         "preco": 3.00,
@@ -104,7 +72,55 @@
         "imagem": "images/berinjela.png"
     },
     {
+        "id": "10",
+        "nome": "Pimentao Colorido",
+        "descricao": "Pacote de pimentão colorido fresco, ideal para refogados e saladas.",
+        "preco": 3.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/pimentaocolorido.png"
+    },
+    {
+        "id": "11",
+        "nome": "Cenoura",
+        "descricao": "Pacote de cenoura fresca, rica em nutrientes.",
+        "preco": 3.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/cenoura.png"
+    },
+    {
+        "id": "12",
+        "nome": "Pacoca Caseira",
+        "descricao": "Pacoca caseira, deliciosa e tradicional.",
+        "preco": 2.50,
+        "categoria": "Doces",
+        "imagem": "images/pacoca.png"
+    },
+    {
+        "id": "13",
+        "nome": "Coca Cola 2L",
+        "descricao": "Coca Cola 2L.",
+        "preco": 10.00,
+        "categoria": "Bebidas",
+        "imagem": "images/cocacola2l.png"
+    },
+    {
         "id": "14",
+        "nome": "Jilo",
+        "descricao": "Pacote de Jiló.",
+        "preco": 3.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/jilo.png"
+    },
+    {
+        "id": "15",
+        "nome": "Berinjela",
+        "descricao": "Pacote de Berinjela, contem 3 unidades em cada pacote.",
+        "preco": 3.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/berinjela.png"
+    },
+    {
+        "id": "16",
         "nome": "Inhame",
         "descricao": "Inhame por kg.",
         "preco": 18.99,
@@ -112,7 +128,7 @@
         "imagem": "images/inhame.png"
     },
     {
-        "id": "15",
+        "id": "17",
         "nome": "Limao",
         "descricao": "Pacote de limão.",
         "preco": 3.00,
@@ -120,7 +136,7 @@
         "imagem": "images/limao.png"
     },
     {
-        "id": "16",
+        "id": "18",
         "nome": "Mandioca Congelada 1kg",
         "descricao": "Pacote de Mandioca Congelada 1kg.",
         "preco": 7.00,
@@ -154,7 +170,7 @@
     {
         "id": "22",
         "nome": "Vagem",
-        "descricao": "Pacote de vagem com aproximadamente 180g.",
+        "descricao": "Pacote de vagem com aproximadamente 200g.",
         "preco": 3.00,
         "categoria": "Hortifruti",
         "imagem": "images/vagem.png"
@@ -167,56 +183,9 @@
         "categoria": "Bebidas",
         "imagem": "images/cocacolaretornaveln.png"
     },
+   
     {
-        "id": "25",
-        "nome": "Alface Americana",
-        "descricao": "Alface americana fresca, ideal para saladas.",
-        "preco": 8.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/alfaceamericana.png"
-    },
-    {
-        "id": "26",
-        "nome": "Rucula",
-        "descricao": "Rúcula fresca, ideal para saladas.",
-        "preco": 8.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/rucula.png"
-    },
-    {
-        "id": "27",
-        "nome": "Almeirao",
-        "descricao": "Almeirão fresco, ideal para saladas.",
-        "preco": 8.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/almeirao.png"
-    },
-    {
-        "id": "28",
-        "nome": "Salsa",
-        "descricao": "Maço de Salsa.",
-        "preco": 6.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/salsa.png"
-    },
-    {
-        "id": "29",
-        "nome": "Coentro",
-        "descricao": "Maço de Coentro.",
-        "preco": 6.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/coentro.png"
-    },
-    {
-        "id": "30",
-        "nome": "Cheiro Verde",
-        "descricao": "Maço de Cheiro Verde.",
-        "preco": 6.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/cheiroverde.png"
-    },
-    {
-        "id": "31",
+        "id": "24",
         "nome": "Chuchu",
         "descricao": "Pacote de Chuchu.",
         "preco": 3.00,
@@ -224,7 +193,7 @@
         "imagem": "images/chuchu.png"
     },
     {
-        "id": "32",
+        "id": "25",
         "nome": "Papel Higienico Sublime 30m 4 Rolos",
         "descricao": "Imagens meramente ilustrativas, Papel Higiênico Sublime 30m 4 Rolos, folha simples.",
         "preco": 6.99,
@@ -232,7 +201,7 @@
         "imagem": "images/sublime.png"
     },
     {
-        "id": "33",
+        "id": "26",
         "nome": "Coca Cola 2L",
         "descricao": "Imagens meramente ilustrativas, Coca Cola 2L, perfeita para acompanhar suas refeições.",
         "preco": 10.00,
@@ -240,7 +209,7 @@
         "imagem": "images/cocacola2l.png"
     },
     {
-        "id": "34",
+        "id": "27",
         "nome": "Acucar Refinado Caravelas 1kg",
         "descricao": "*Imagens meramente ilustrativas",
         "preco": 4.99,
@@ -248,7 +217,7 @@
         "imagem": "images/caravelas.png"
     },
     {
-        "id": "35",
+        "id": "28",
         "nome": "Acucar Cristal Santa Isabel 1kg",
         "descricao": "*Imagens meramente ilustrativas",
         "preco": 4.99,
@@ -256,7 +225,7 @@
         "imagem": "images/acucarsanta.png"
     },
     {
-        "id": "38",
+        "id": "29",
         "nome": "Agua sem gas Crystal 500ml",
         "descricao": "Imagens meramente ilustrativas, Água mineral natural sem gás, 500ml.",
         "preco": 2.00,
@@ -264,7 +233,7 @@
         "imagem": "images/aguasemgas.png"
     },
     {
-        "id": "39",
+        "id": "30",
         "nome": "Agua com gas Crystal 500ml",
         "descricao": "Imagens meramente ilustrativas, Água mineral natural com gás, 500ml.",
         "preco": 3.00,
@@ -272,7 +241,7 @@
         "imagem": "images/aguacomgas.png"
     },
     {
-        "id": "40",
+        "id": "31",
         "nome": "Sabao em Po Tixan 800g",
         "descricao": "*Imagens meramente ilustrativas, Sabão em pó Tixan Ypê, limpa e perfuma suas roupas, 800g",
         "preco": 11.99,
@@ -280,7 +249,7 @@
         "imagem": "images/tixan.png"
     },
     {
-        "id": "42",
+        "id": "32",
         "nome": "Laranja Pera kg",
         "descricao": "Laranja Pera por kg.",
         "preco": 4.99,
@@ -288,7 +257,7 @@
         "imagem": "images/laranja.png"
     },
     {
-        "id": "43",
+        "id": "33",
         "nome": "Biscoito Recheado Marilan 80g",
         "descricao": "Biscoito recheado, sabor chocolate.",
         "preco": 2.99,
@@ -296,7 +265,7 @@
         "imagem": "images/marilan.png"
     },
     {
-        "id": "44",
+        "id": "34",
         "nome": "Cartela com 30 Ovos Extra",
         "descricao": "Cartela com 30 unidades de Ovos Extra.",
         "preco": 19.99,
@@ -304,15 +273,15 @@
         "imagem": "images/ovosextra.png"
     },
     {
-        "id": "45",
+        "id": "35",
         "nome": "Mamao Papaia (Unidade)",
         "descricao": "Mamao papaia docinho por unidade",
         "preco": 7.00,
         "categoria": "Hortifruti",
-        "imagem": "images/mamao.png"
+        "imagem": "images/papaia.png"
     },
     {
-        "id": "46",
+        "id": "36",
         "nome": "Brocolis",
         "descricao": "Brocolis ninja, por unidade",
         "preco": 8.00,
@@ -320,7 +289,7 @@
         "imagem": "images/brocolisninja.png"
     },
     {
-        "id": "47",
+        "id": "37",
         "nome": "Couve Flor",
         "descricao": "Couve Flor, por unidade",
         "preco": 10.00,
@@ -328,7 +297,7 @@
         "imagem": "images/couveflor.png"
     },
     {
-        "id": "48",
+        "id": "38",
         "nome": "Abacaxi",
         "descricao": "Abacaxi docinho, por unidade",
         "preco": 13.00,
@@ -336,7 +305,7 @@
         "imagem": "images/abacaxi.png"
     },
     {
-        "id": "49",
+        "id": "39",
         "nome": "Abobora Cabotia kg",
         "descricao": "Abobora Cabotia, por kg",
         "preco": 4.99,
@@ -344,7 +313,7 @@
         "imagem": "images/cabotia.png"
     },
       {
-        "id": "50",
+        "id": "40",
         "nome": "Mel 500ml",
         "descricao": "Mel de laranjeira pequeno 500ml. ",
         "preco": 20.00,
@@ -352,7 +321,7 @@
         "imagem": "images/melpeq.png"
     },
     {
-        "id": "51",
+        "id": "41",
         "nome": "Mel 1l",
         "descricao": "Mel de laranjeira grande 1 litro.",
         "preco": 35.00,
@@ -360,7 +329,7 @@
         "imagem": "images/melg.png"
     },
     {
-        "id": "52",
+        "id": "42",
         "nome": "Maracuja Azedo kg",
         "descricao": "Maracuja azedo por kg.",
         "preco": 13.99,
@@ -368,15 +337,15 @@
         "imagem": "images/maracujaazedo.png"
     },
     {
-        "id": "53",
+        "id": "43",
         "nome": "Refrigerante Conquista Guarana 2L",
         "descricao": "*Imagens meramente ilustrativas.",
         "preco": 5.00,
         "categoria": "Bebidas",
         "imagem": "images/conquistaguarana.png"
     },
- {
-        "id": "54",
+    {
+        "id": "44",
         "nome": "Refrigerante Conquista Guarana Zero Acucar 2L",
         "descricao": "*Imagens meramente ilustrativas.",
         "preco": 5.00,
@@ -384,15 +353,15 @@
         "imagem": "images/conquistazero.png"
     },
      {
-        "id": "55",
+        "id": "45",
         "nome": "Refrigerante Conquista Cola 2L",
         "descricao": "*Imagens meramente ilustrativas.",
         "preco": 5.00,
         "categoria": "Bebidas",
         "imagem": "images/conquistacola.png"
     },    
- {
-        "id": "56",
+    {
+        "id": "46",
         "nome": "Refrigerante Conquista Cola Zero Acucar 2L",
         "descricao": "*Imagens meramente ilustrativas.",
         "preco": 5.00,
@@ -400,7 +369,7 @@
         "imagem": "images/conquistacolazero.png"
     },
      {
-        "id": "57",
+        "id": "47",
         "nome": "Refrigerante Conquista Laranja 2L",
         "descricao": "*Imagens meramente ilustrativas.",
         "preco": 5.00,
@@ -408,7 +377,7 @@
         "imagem": "images/conquistalaranja.png"
     },
     {
-        "id": "58",
+        "id": "48",
         "nome": "Refrigerante Conquista Limao 2L",
         "descricao": "*Imagens meramente ilustrativas.",
         "preco": 5.00,
@@ -416,7 +385,7 @@
         "imagem": "images/conquistalimao.png"
     },
     {
-        "id": "59",
+        "id": "49",
         "nome": "Refrigerante Conquista Uva 2L",
         "descricao": "*Imagens meramente ilustrativas.",
         "preco": 5.00,
@@ -424,7 +393,7 @@
         "imagem": "images/conquistauva.png"
     },
     {
-        "id": "64",
+        "id": "50",
         "nome": "Iogurte Elege Bob Esponja Morango 100g",
         "descricao": "*Imagens meramente ilustrativas.",
         "preco": 4.99,
@@ -432,7 +401,7 @@
         "imagem": "images/bobesponja.png"
     },
     {
-        "id": "67",
+        "id": "51",
         "nome": "Leite Fermentado Desnatado Laranja Bob Esponja 80g",
         "descricao": "*Imagens meramente ilustrativas.",
         "preco": 1.99,
@@ -440,7 +409,7 @@
         "imagem": "images/leitefermentadoamarelo.png"
     },
     {
-        "id": "68",
+        "id": "52",
         "nome": "Iogurte Liquido Batavo Vitamina com Cereal 170g",
         "descricao": "*Imagens meramente ilustrativas.",
         "preco": 3.99,
@@ -448,7 +417,7 @@
         "imagem": "images/vitaminacomcereal.png"
     },
     {
-        "id": "73",
+        "id": "53",
         "nome": "Banana Nanica kg",
         "descricao": "*Imagens meramente ilustrativas.",
         "preco": 7.99,
@@ -456,7 +425,7 @@
         "imagem": "images/banana.png"
     },
     {
-        "id": "74",
+        "id": "54",
         "nome": "Amido de Milho Kimino 200g",
         "descricao": "*Imagens meramente ilustrativas.",
         "preco": 5.49,
@@ -464,15 +433,15 @@
         "imagem": "images/kimino.png"
     },
     {
-        "id": "75",
-        "nome": "Repolho peça",
+        "id": "55",
+        "nome": "Repolho Unidade",
         "descricao": "*Imagens meramente ilustrativas.",
         "preco": 6.99,
         "categoria": "Hortifruti",
         "imagem": "images/repolho.png"
     },
     {
-        "id": "76",
+        "id": "56",
         "nome": "Manteiga Batavo Extra com sal 200g",
         "descricao": "*Imagens meramente ilustrativas.",
         "preco": 13.99,
@@ -480,27 +449,341 @@
         "imagem": "images/batavocomsal.png"
     },
     {
-        "id": "77",
-        "nome": "Couve Manteiga",
-        "descricao": "*Imagens meramente ilustrativas.",
-        "preco": 7.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/couvemanteiga.png"
-    },
-    {
-        "id": "79",
-        "nome": "Alho a granel(100g)",
-        "descricao": "*Imagens meramente ilustrativas, valor referente a 100g.",
-        "preco": 4.19,
-        "categoria": "Hortifruti",
-        "imagem": "images/couveflorverde.png"
-    },
-    {
-        "id": "80",
+        "id": "57",
         "nome": "Bandeja de Morango ",
         "descricao": "*Imagens meramente ilustrativas.",
         "preco": 8.00,
         "categoria": "Hortifruti",
+        "imagem": "images/morango.png"
+    },
+    {
+        "id": "58",
+        "nome": "Melancia Unidade",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 35.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/melancia.png"
+    },
+    {
+        "id": "59",
+        "nome": "Colorau aproximadamente 110g",
+        "descricao": "Produto esta embalado em potes de aproximadamente R$4,00 *Imagens meramente ilustrativas.",
+        "preco": 3.30,
+        "categoria": "Temperos e Chás",
+        "imagem": "images/colorau.png"
+    },
+    {
+        "id": "60",
+        "nome": "Anis Estrelado aproximadamente 65g",
+        "descricao": "Produto esta embalado em potes de aproximadamente R$5,00 *Imagens meramente ilustrativas.",
+        "preco": 5.00,
+        "categoria": "Temperose e Chás",
+        "imagem": "images/anis.png"
+    },
+    {
+        "id": "61",
+        "nome": "Canela em Pau aproximadamente 60g",
+        "descricao": "Produto esta embalado em potes de aproximadamente R$8,00 *Imagens meramente ilustrativas.",
+        "preco": 8.00,
+        "categoria": "Temperos e Chás",
+        "imagem": "images/canela.png"
+    },
+    {
+        "id": "62",
+        "nome": "Cravo aproximadamente 50g",
+        "descricao": "Produto esta embalado em potes de aproximadamente R$8,00 *Imagens meramente ilustrativas.",
+        "preco": 10.00,
+        "categoria": "Temperos e Chás",
+        "imagem": "images/cravo.png"
+    },
+    {
+        "id": "63",
+        "nome": "Bandeja de Milho Verde 5 espigas",
+        "descricao": "Bandeja com 5 espigas de milho verde.",
+        "preco": 8.99,
+        "categoria": "Hortifruti",
+        "imagem": "images/milho.png"
+    },
+    {
+        "id": "64",
+        "nome": "Uva Benetaka 500g",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 8.99,
+        "categoria": "Hortifruti",
+        "imagem": "images/benetaka.png"
+    },
+    {
+        "id": "65",
+        "nome": "Uva Vitoria 500g",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 10.99,
+        "categoria": "Hortifruti",
+        "imagem": "images/vitoria.png"
+    },
+   {
+        "id": "66",
+        "nome": "Alface Crespa",
+        "descricao": "Alface crespa fresca, ideal para saladas.",
+        "preco": 6.99,
+        "categoria": "Hortifruti",
+        "imagem": "images/alfacecrespa.png"
+    },
+    {
+        "id": "67",
+        "nome": "Coentro",
+        "descricao": "Maço de Coentro.",
+        "preco": 4.99,
+        "categoria": "Hortifruti",
+        "imagem": "images/coentro.png"
+    },
+    {
+        "id": "68",
+        "nome": "Cheiro Verde",
+        "descricao": "Maço de Cheiro Verde.",
+        "preco": 4.99,
+        "categoria": "Hortifruti",
+        "imagem": "images/cheiroverde.png"
+    },
+     {
+        "id": "69",
+        "nome": "Alfae Americana",
+        "descricao": "Alface americana fresca, ideal para saladas.",
+        "preco": 6.99,
+        "categoria": "Hortifruti",
+        "imagem": "images/alfaceamericana.png"
+    },
+    {
+        "id": "70", 
+        "nome": "Rucula",
+        "descricao": "Rúcula fresca, ideal para saladas.",
+        "preco": 6.99,
+        "categoria": "Hortifruti",
+        "imagem": "images/rucula.png"
+    },
+    {
+        "id": "71",
+        "nome": "Almeirao",
+        "descricao": "Almeirão fresco, ideal para saladas.",
+        "preco": 6.99,
+        "categoria": "Hortifruti",
+        "imagem": "images/almeirao.png"
+    },
+    {
+        "id": "72",
+        "nome": "Salsa",
+        "descricao": "Maço de Salsa.",
+        "preco": 4.99,
+        "categoria": "Hortifruti",
+        "imagem": "images/salsa.png"
+    },
+    {
+        "id": "73",
+        "nome": "Couve Manteiga",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 6.00,
+        "categoria": "Hortifruti",
+        "imagem": "images/couvemanteiga.png"
+    },
+    {
+        "id": "74",
+        "nome": "Abobrinha Brasileira kg",
+        "descricao": "Pacote de abobrinha fresca, perfeita para refogados e saladas.",
+        "preco": 7.99,
+        "categoria": "Hortifruti",
+        "imagem": "images/abobrinha.png"
+    },
+    {
+        "id": "75",
+        "nome": "Inhame",
+        "descricao": "Inhame por kg.",
+        "preco": 18.99,
+        "categoria": "Hortifruti",
+        "imagem": "images/inhame.png"
+    },
+    {
+        "id": "76",
+        "nome": "Maxixe kg",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 14.99,
+        "categoria": "Hortifruti",
+        "imagem": "images/maxixe.png"
+    },
+    {
+        "id": "77",
+        "nome": "Alho a granel(100g)",
+        "descricao": "*Imagens meramente ilustrativas, valor referente a 100g.",
+        "preco": 4.19,
+        "categoria": "Hortifruti",
         "imagem": "images/alho.png"
+    },
+    {
+        "id": "78",
+        "nome": "Folha de Louro 30g aproximadamente",
+        "descricao": "*Imagens meramente ilustrativas, valor referente a aproximadamente 30g.",
+        "preco": 4.00,
+        "categoria": "Temperos e Chás",
+        "imagem": "images/Louro.png"
+    },
+    {
+        "id": "79",
+        "nome": "Oregano 50g aproximadamente",
+        "descricao": "*Imagens meramente ilustrativas, valor referente a aproximadamente 50g.",
+        "preco": 3.50,
+        "categoria": "Temperos e Chás",
+        "imagem": "images/oregano.png"
+    },
+    {
+        "id": "83",
+        "nome": "Tomate kg",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 5.99,
+        "categoria": "Hortifruti",
+        "imagem": "images/tomatek.png"
+    },
+    {
+        "id": "84",
+        "nome": "Ponca kg",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 9.99,
+        "categoria": "Hortifruti",
+        "imagem": "images/ponca.png"
+    },
+    {
+        "id": "85",
+        "nome": "Manga Tomy kg",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 8.99,
+        "categoria": "Hortifruti",
+        "imagem": "images/tomy.png"
+    },
+    {
+        "id": "86",
+        "nome": "Melissa 30g aproximadamente",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 8.99,
+        "categoria": "Temperos e Chás",
+        "imagem": "images/melissa.png"
+    },
+    {
+        "id": "87",
+        "nome": "Guaco",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 8.99,
+        "categoria": "Temperos e Chás",
+        "imagem": "images/guaco.png"
+    },
+    {
+        "id": "88",
+        "nome": "Doce de Batata Doce ou Abobora",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 2.50,
+        "categoria": "Doces",
+        "imagem": "images/doceabobora.png"
+    },
+    {
+        "id": "89",
+        "nome": "Paprica Doce 100g aproximadamente",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 3.99,
+        "categoria": "Temperos e Chás",
+        "imagem": "images/docedeleite.png"
+    },
+    {
+        "id": "90",
+        "nome": "Paprica Defumada 100g aproximadamente",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 4.20,
+        "categoria": "Temperos e Chás",
+        "imagem": "images/docedecoco.png"
+    },
+    {
+        "id": "91",
+        "nome": "Paprica Picante 100g aproximadamente",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 3.70,
+        "categoria": "Temperos e Chás",
+        "imagem": "images/docedeleitecoco.png"
+    },
+    {
+        "id": "92",
+        "nome": "Erva Doce 60g aproximadamente",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 5.40,
+        "categoria": "Temperos e Chás",
+        "imagem": "images/ervadoce.png"
+    },
+    {
+        "id": "93",
+        "nome": "Caldo de Galinha 200g aproximandamente",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco":3.99,
+        "categoria": "Temperos e Chás",
+        "imagem": "images/hortela.png"
+    },
+    {
+        "id": "94",
+        "nome": "Caldo de Bacon 100g aproximadamente",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 2.00,
+        "categoria": "Temperos e Chás",
+        "imagem": "images/caldodegalinha.png"
+    },
+    {
+        "id": "95",
+        "nome": "Acafrao 100g aproximadamente",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 3.99,
+        "categoria": "Temperos e Chás",
+        "imagem": "images/caldodebacon.png"
+    },
+    {
+        "id": "96",
+        "nome": "Fumaça em pó 100g aproximadamente",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 2.50,
+        "categoria": "Temperos e Chás",
+        "imagem": "images/cominho.png"
+    },
+    {
+        "id": "97",
+        "nome": "Lemon Pepper 100g aproximadamente",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 7.50,
+        "categoria": "Temperos e Chás",
+        "imagem": "images/fumaca.png"
+    },
+    {
+        "id": "98",
+        "nome": "Chimichurri sem pimenta 100g aproximadamente",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 8.00,
+        "categoria": "Temperos e Chás",
+        "imagem": "images/lemonpepper.png"
+    },
+    {
+        "id": "99",
+        "nome": "Tempero Edu Guedes 100g aproximadamente",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 8.00,
+        "categoria": "Temperos e Chás",
+        "imagem": "images/pimentabiquinho.png"
+    },
+    {
+        "id": "100",
+        "nome": "Tempero Ana Maria 100g aproximadamente",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 7.00,
+        "categoria": "Temperos e Chás",
+        "imagem": "images/pimentacalabresa.png"
+    },
+    {
+        "id": "101",
+        "nome": "Hibisco 30g aproximadamente",
+        "descricao": "*Imagens meramente ilustrativas.",
+        "preco": 5.00,
+        "categoria": "Temperos e Chás",
+        "imagem": "images/pimentadoreino.png"
     }
 ]
+
+    
