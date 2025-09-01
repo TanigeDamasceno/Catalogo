@@ -1,8 +1,8 @@
 [{
         "id": "1",
-        "nome": "Abobrinha Brasileira",
+        "nome": "Abobrinha Brasileira kg",
         "descricao": "Pacote de abobrinha fresca, perfeita para refogados e saladas.",
-        "preco": 3.00,
+        "preco": 7.99,
         "categoria": "Hortifruti",
         "imagem": "images/abobrinha.png"
     },
@@ -67,17 +67,17 @@
         "id": "9",
         "nome": "Alface Crespa",
         "descricao": "Alface crespa fresca, ideal para saladas.",
-        "preco": 8.00,
+        "preco": 7.00,
         "categoria": "Hortifruti",
         "imagem": "images/alfacecrespa.png"
     },
     {
         "id": "10",
-        "nome": "Maca Fuji Pequena (Unidade)",
-        "descricao": "Maçã Fuji, por unidade, docinha",
-        "preco": 1.00, 
-        "categoria": "Hortifruti",
-        "imagem": "images/maca.png"
+        "nome": "Agua sem gas Crystal 1.5L",
+        "descricao": "Agua mineral natural sem gas, 1.5L.",
+        "preco": 5.00,
+        "categoria": "Bebidas",
+        "imagem": "images/aguasemgas1.5l.png"
     },
     {
         "id": "11",
@@ -128,14 +128,6 @@
         "imagem": "images/mandioca.png"
     },
     {
-        "id": "17",
-        "nome": "Pepino Caipira",
-        "descricao": "Pacote de pepino caipira fresco, com duas unidades em cada pacote.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/pepinocaipira.png"
-    },
-    {
         "id": "19",
         "nome": "Pimenta Dedo de Moca",
         "descricao": "Pacote de pimenta dedo de moça, com aproximadamente 150g.",
@@ -174,14 +166,6 @@
         "preco": 7.00,
         "categoria": "Bebidas",
         "imagem": "images/cocacolaretornaveln.png"
-    },
-    {
-        "id": "24",
-        "nome": "Refrigerante Coca Cola Zero 2L Retornavel",
-        "descricao": "Refrigerante Coca Cola Zero 2l Retorável.",
-        "preco": 7.00,
-        "categoria": "Bebidas",
-        "imagem": "images/cocazeroretornavel.png"
     },
     {
         "id": "25",
@@ -272,14 +256,6 @@
         "imagem": "images/acucarsanta.png"
     },
     {
-        "id": "36",
-        "nome": "Cafe Cabloco 500g",
-        "descricao": "*Imagens meramente ilustrativas. Café torrado e moído, embalagem de 500g.",
-        "preco": 34.90,
-        "categoria": "Mercearia",
-        "imagem": "images/caboclo500.png"
-    },
-    {
         "id": "38",
         "nome": "Agua sem gas Crystal 500ml",
         "descricao": "Imagens meramente ilustrativas, Água mineral natural sem gás, 500ml.",
@@ -329,11 +305,11 @@
     },
     {
         "id": "45",
-        "nome": "Melao",
-        "descricao": "Melao docinho por unidade",
-        "preco": 10.00,
+        "nome": "Mamao Papaia (Unidade)",
+        "descricao": "Mamao papaia docinho por unidade",
+        "preco": 7.00,
         "categoria": "Hortifruti",
-        "imagem": "images/melao.png"
+        "imagem": "images/mamao.png"
     },
     {
         "id": "46",
@@ -361,9 +337,9 @@
     },
     {
         "id": "49",
-        "nome": "Abobora Cabotia",
-        "descricao": "Abobora Cabotia, por unidade",
-        "preco": 3.00,
+        "nome": "Abobora Cabotia kg",
+        "descricao": "Abobora Cabotia, por kg",
+        "preco": 4.99,
         "categoria": "Hortifruti",
         "imagem": "images/cabotia.png"
     },
@@ -387,7 +363,7 @@
         "id": "52",
         "nome": "Maracuja Azedo kg",
         "descricao": "Maracuja azedo por kg.",
-        "preco": 9.99,
+        "preco": 13.99,
         "categoria": "Hortifruti",
         "imagem": "images/maracujaazedo.png"
     },
@@ -447,15 +423,6 @@
         "categoria": "Bebidas",
         "imagem": "images/conquistauva.png"
     },
-  
-    {
-        "id": "62",
-        "nome": "Iogurte Liquido Batavo Morango 170g",
-        "descricao": "*Imagens meramente ilustrativas.",
-        "preco": 3.99,
-        "categoria": "Mercearia",
-        "imagem": "images/iogurtebatavomorango.png"
-    },
     {
         "id": "64",
         "nome": "Iogurte Elege Bob Esponja Morango 100g",
@@ -481,42 +448,10 @@
         "imagem": "images/vitaminacomcereal.png"
     },
     {
-        "id": "69",
-        "nome": "Detergente Ype Neutro 500ml",
-        "descricao": "*Imagens meramente ilustrativas.",
-        "preco": 2.99,
-        "categoria": "Higiene e Limpeza",
-        "imagem": "images/ypeneutro.png"
-    },
-    {
-        "id": "70",
-        "nome": "Detergente Ype Clear Care 500ml",
-        "descricao": "*Imagens meramente ilustrativas.",
-        "preco": 2.99,
-        "categoria": "Higiene e Limpeza",
-        "imagem": "images/ypeclearcare.png"
-    },
-    {
-        "id": "71",
-        "nome": "Detergente Ype Capim Limao 500ml",
-        "descricao": "*Imagens meramente ilustrativas.",
-        "preco": 2.99,
-        "categoria": "Higiene e Limpeza",
-        "imagem": "images/capimlimao.png"
-    },
-    {
-        "id": "72",
-        "nome": "Detergente Ype Clear 500ml",
-        "descricao": "*Imagens meramente ilustrativas.",
-        "preco": 2.99,
-        "categoria": "Higiene e Limpeza",
-       "imagem": "images/ypeclear.png"
-    },
-    {
         "id": "73",
         "nome": "Banana Nanica kg",
         "descricao": "*Imagens meramente ilustrativas.",
-        "preco": 6.99,
+        "preco": 7.99,
         "categoria": "Hortifruti",
         "imagem": "images/banana.png"
     },
@@ -553,14 +488,6 @@
         "imagem": "images/couvemanteiga.png"
     },
     {
-        "id": "78",
-        "nome": "Couve Flor Roxa",
-        "descricao": "*Imagens meramente ilustrativas.",
-        "preco": 10.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/couveflorroxa.png"
-    },
-    {
         "id": "79",
         "nome": "Alho a granel(100g)",
         "descricao": "*Imagens meramente ilustrativas, valor referente a 100g.",
@@ -572,7 +499,7 @@
         "id": "80",
         "nome": "Bandeja de Morango ",
         "descricao": "*Imagens meramente ilustrativas.",
-        "preco": 15.99,
+        "preco": 8.00,
         "categoria": "Hortifruti",
         "imagem": "images/alho.png"
     }
