@@ -8,14 +8,6 @@
         "imagem": "images/quiabo.png"
     },
     {
-        "id": "02",
-        "nome": "Pimenta Dedo de Moca",
-        "descricao": "Pacote de pimenta dedo de moça, com aproximadamente 150g.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/pimentadedom.png"
-    },
-    {
         "id": "03",
         "nome": "Batata",
         "descricao": "Pacote de batata, rica em nutrientes.",
@@ -575,14 +567,6 @@
         "preco": 7.99,
         "categoria": "Hortifruti",
         "imagem": "images/abobrinha.png"
-    },
-    {
-        "id": "75",
-        "nome": "Inhame",
-        "descricao": "Inhame por kg.",
-        "preco": 18.99,
-        "categoria": "Hortifruti",
-        "imagem": "images/inhame.png"
     },
     {
         "id": "76",
