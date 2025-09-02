@@ -64,14 +64,6 @@
         "imagem": "images/jilo.png"
     },
     {
-        "id": "09",
-        "nome": "Berinjela",
-        "descricao": "Pacote de Berinjela, contem 3 unidades em cada pacote.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/berinjela.png"
-    },
-    {
         "id": "10",
         "nome": "Pimentao Colorido",
         "descricao": "Pacote de pimentão colorido fresco, ideal para refogados e saladas.",
@@ -102,14 +94,6 @@
         "preco": 10.00,
         "categoria": "Bebidas",
         "imagem": "images/cocacola2l.png"
-    },
-    {
-        "id": "14",
-        "nome": "Jilo",
-        "descricao": "Pacote de Jiló.",
-        "preco": 3.00,
-        "categoria": "Hortifruti",
-        "imagem": "images/jilo.png"
     },
     {
         "id": "15",
