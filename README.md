@@ -1,3 +1,5 @@
+
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 # 🥦 Catálogo Hortifruti Damasceno's
 
 Este é um catálogo digital feito sob medida para o Hortifruti da família Damasceno (Bauru-SP).  
@@ -27,3 +29,4 @@ O sistema ajuda os clientes a escolher produtos e enviar o pedido direto via Wha
 ## Acesse online:
 
 https://catalogohortifrutidamascenos.netlify.app/
+
